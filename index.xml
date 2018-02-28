@@ -13,16 +13,6 @@
     
     
     <item>
-      <title>O mnie</title>
-      <link>http://blog.wiciaki.tech/about/</link>
-      <pubDate>Sun, 25 Feb 2018 14:57:06 +0100</pubDate>
-      
-      <guid>http://blog.wiciaki.tech/about/</guid>
-      <description>Blogowanie (lub uogólniając, spisywanie swoich wypocin) jest czymś, co chciałem robić od dawien dawna. Czasem po prostu ilość myśli w mojej głowie jest tak przytłaczająca, a oburzenie tak wielkie, że jeśli tego szybko nie wyleję, grozi mi eksplozja.
-Special thanks to Blaconix for helping me setup the page &amp;lt;/3</description>
-    </item>
-    
-    <item>
       <title>Spotkałem anioła</title>
       <link>http://blog.wiciaki.tech/spotka%C5%82em-anio%C5%82a/</link>
       <pubDate>Sun, 25 Feb 2018 14:57:06 +0100</pubDate>
@@ -31,6 +21,16 @@ Special thanks to Blaconix for helping me setup the page &amp;lt;/3</description
       <description>To był najgorętszy dzień ostatniego lata.
 Po wsiąknięciu ze 3 książek, 30 herbat i 300 opakowań lodów, ubrałem się z impulsem, by gdzieś wyskoczyć.
 Porwałem kilka litrów wody, stertę kanapek i moją na ten czas obsesję pod tytułem &amp;ldquo;Sztuka Podstępu&amp;rdquo; Kevina Mitnicka. Nie mając kompletnie pomysłu na cel mojej wyprawy, pomyślałem, że obiorę śmieszny algorytm i skręcać będę raz w lewo, a raz w prawo i nie złamię tej zasady, jakkolwiek bezsensowna moja droga nie będzie.</description>
+    </item>
+    
+    <item>
+      <title>O mnie</title>
+      <link>http://blog.wiciaki.tech/about/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.wiciaki.tech/about/</guid>
+      <description>Blogowanie (lub uogólniając, spisywanie swoich wypocin) jest czymś, co chciałem robić od dawien dawna. Czasem po prostu ilość myśli w mojej głowie jest tak przytłaczająca, a oburzenie tak wielkie, że jeśli tego szybko nie wyleję, grozi mi eksplozja.
+Special thanks to Blaconix for helping me setup the page &amp;lt;/3</description>
     </item>
     
   </channel>
