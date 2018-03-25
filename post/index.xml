@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
     <copyright>Wiktor Mendalka ©</copyright>
-    <lastBuildDate>Sun, 04 Mar 2018 17:40:29 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 25 Mar 2018 00:46:53 +0100</lastBuildDate>
     
 	<atom:link href="https://wiciaki.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Najkrótsza baśń na świecie</title>
+      <link>https://wiciaki.github.io/najkr%C3%B3tsza-ba%C5%9B%C5%84-na-%C5%9Bwiecie/</link>
+      <pubDate>Sun, 25 Mar 2018 00:46:53 +0100</pubDate>
+      
+      <guid>https://wiciaki.github.io/najkr%C3%B3tsza-ba%C5%9B%C5%84-na-%C5%9Bwiecie/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Milenialsi</title>
@@ -18,7 +27,7 @@
       <pubDate>Sun, 04 Mar 2018 17:40:29 +0100</pubDate>
       
       <guid>https://wiciaki.github.io/milenialsi/</guid>
-      <description>x</description>
+      <description></description>
     </item>
     
     <item>
