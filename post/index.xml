@@ -1,42 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Post on Paradygmat</title>
+    <title>Post on Świątynia myśli</title>
     <link>https://wiciaki.github.io/post/</link>
-    <description>Recent content in Post on Paradygmat</description>
+    <description>Recent content in Post on Świątynia myśli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
     <copyright>Wiktor Mendalka ©</copyright>
-    <lastBuildDate>Sat, 21 Apr 2018 01:41:42 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 02 May 2019 00:14:54 +0200</lastBuildDate>
     
 	<atom:link href="https://wiciaki.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Moja trwająca zmiana i życiowa playlista</title>
-      <link>https://wiciaki.github.io/moja-trwaj%C4%85ca-zmiana-i-%C5%BCyciowa-playlista/</link>
-      <pubDate>Sat, 21 Apr 2018 01:41:42 +0200</pubDate>
+      <title>Ciężko też</title>
+      <link>https://wiciaki.github.io/ci%C4%99%C5%BCko-te%C5%BC/</link>
+      <pubDate>Thu, 02 May 2019 00:14:54 +0200</pubDate>
       
-      <guid>https://wiciaki.github.io/moja-trwaj%C4%85ca-zmiana-i-%C5%BCyciowa-playlista/</guid>
-      <description></description>
+      <guid>https://wiciaki.github.io/ci%C4%99%C5%BCko-te%C5%BC/</guid>
+      <description>TBC.</description>
     </item>
     
     <item>
-      <title>Najkrótsza baśń na świecie</title>
-      <link>https://wiciaki.github.io/najkr%C3%B3tsza-ba%C5%9B%C5%84-na-%C5%9Bwiecie/</link>
-      <pubDate>Sun, 25 Mar 2018 00:46:53 +0100</pubDate>
+      <title>I ciężko mi przyznać</title>
+      <link>https://wiciaki.github.io/i-ci%C4%99%C5%BCko-mi-przyzna%C4%87/</link>
+      <pubDate>Tue, 23 Apr 2019 19:20:51 +0200</pubDate>
       
-      <guid>https://wiciaki.github.io/najkr%C3%B3tsza-ba%C5%9B%C5%84-na-%C5%9Bwiecie/</guid>
-      <description></description>
+      <guid>https://wiciaki.github.io/i-ci%C4%99%C5%BCko-mi-przyzna%C4%87/</guid>
+      <description>Prezentuję coś, co napisałem podczas jednej z podróży.
+Nie jest to stricte ani wiersz, ani normalny post, ot taki&amp;hellip; piard umysłu 😁</description>
     </item>
     
     <item>
-      <title>Milenialsi</title>
-      <link>https://wiciaki.github.io/milenialsi/</link>
+      <title>Milenialsi, a rasizm... jestem homofobem?</title>
+      <link>https://wiciaki.github.io/milenialsi-a-rasizm...-jestem-homofobem/</link>
       <pubDate>Sun, 04 Mar 2018 17:40:29 +0100</pubDate>
       
-      <guid>https://wiciaki.github.io/milenialsi/</guid>
-      <description>Znamy nasze mocne strony, jesteśmy dobrze wykształceni, i mamy tę potrzebę konkurowania. Z drugiej strony, jesteśmy zadufani w sobie, nieodpowiedzialni i nawiedzani przez nasze własne oczekiwania. Oto my, pokolenie Z.</description>
+      <guid>https://wiciaki.github.io/milenialsi-a-rasizm...-jestem-homofobem/</guid>
+      <description>Znamy nasze mocne strony, jesteśmy dobrze wykształceni, i mamy tę potrzebę konkurowania. Z drugiej strony, jesteśmy zadufani w sobie, nieodpowiedzialni i nawiedzani przez nasze własne oczekiwania.</description>
+    </item>
+    
+    <item>
+      <title>Wprowadzenie, a zarazem życiowa historia bo why not?</title>
+      <link>https://wiciaki.github.io/wprowadzenie-a-zarazem-%C5%BCyciowa-historia-bo-why-not/</link>
+      <pubDate>Wed, 28 Feb 2018 12:47:02 +0200</pubDate>
+      
+      <guid>https://wiciaki.github.io/wprowadzenie-a-zarazem-%C5%BCyciowa-historia-bo-why-not/</guid>
+      <description>Chciałbym ten wpis zadedykować temu, czym dla mnie jest życie i o moich planach na nie.
+Podstawowych informacji o mojej osobie jak i o tym, czemu prowadzę tego bloga dowiecie się z zakładki &amp;ldquo;O mnie&amp;rdquo; z menu.</description>
     </item>
     
     <item>
@@ -46,8 +57,7 @@
       
       <guid>https://wiciaki.github.io/spotka%C5%82em-anio%C5%82a/</guid>
       <description>To był najgorętszy dzień ostatniego lata.
-Po wsiąknięciu ze 3 książek, 30 herbat i 300 opakowań lodów, ubrałem się z impulsem, by gdzieś wyskoczyć.
-Porwałem kilka litrów wody, stertę kanapek i moją na ten czas obsesję pod tytułem &amp;ldquo;Sztuka Podstępu&amp;rdquo; Kevina Mitnicka. Nie mając kompletnie pomysłu na cel mojej wyprawy, pomyślałem, że obiorę śmieszny algorytm i skręcać będę raz w lewo, a raz w prawo i nie złamię tej zasady, jakkolwiek bezsensowna moja droga nie będzie.</description>
+Po wsiąknięciu ze 3 książek, 30 herbat i 300 opakowań lodów, ubrałem się z impulsem, by gdzieś wyskoczyć.</description>
     </item>
     
   </channel>

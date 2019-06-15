@@ -216,6 +216,11 @@ table { border-collapse: collapse; border-spacing: 0; }
 .icon-instagram:before {
     content: "\f215";
 }
+
+.icon-youtube:before {
+    content: "\f213";
+}
+
 .icon-pinterest:before {
     content: "\f210";
 }
@@ -590,6 +595,7 @@ body.nav-opened .site-wrapper {
 .main-header a.bloglogo .icon-twitter,
 .main-header a.bloglogo .icon-facebook,
 .main-header a.bloglogo .icon-instagram,
+.main-header a.bloglogo .icon-youtube,
 .main-header a.bloglogo .icon-pinterest,
 .main-header a.bloglogo .icon-google-plus {
     color: white;
@@ -662,7 +668,6 @@ body.nav-opened .nav {
     left: 30px;
     font-size: 16px;
     font-weight: 100;
-    text-transform: uppercase;
     color: #fff;
 }
 

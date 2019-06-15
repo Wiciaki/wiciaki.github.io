@@ -1,43 +1,104 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Paradygmat</title>
+    <title>Świątynia myśli</title>
     <link>https://wiciaki.github.io/</link>
-    <description>Recent content on Paradygmat</description>
+    <description>Recent content on Świątynia myśli</description>
+    
+    <item>
+      <title>Ciężko też</title>
+      <link>https://wiciaki.github.io/ci%C4%99%C5%BCko-te%C5%BC/</link>
+      <pubDate>Thu, 02 May 2019 00:14:54 +0200</pubDate>
+      
+      <guid>https://wiciaki.github.io/ci%C4%99%C5%BCko-te%C5%BC/</guid>
+      <description>TBC.</description>
+	  
+		<enclosure url = "https://wiciaki.github.io/images/og.jpg" type="image/jpeg" />
+	  
+    </item>
+    
+    <item>
+      <title>I ciężko mi przyznać</title>
+      <link>https://wiciaki.github.io/i-ci%C4%99%C5%BCko-mi-przyzna%C4%87/</link>
+      <pubDate>Tue, 23 Apr 2019 19:20:51 +0200</pubDate>
+      
+      <guid>https://wiciaki.github.io/i-ci%C4%99%C5%BCko-mi-przyzna%C4%87/</guid>
+      <description>Prezentuję coś, co napisałem podczas jednej z podróży.
+Nie jest to stricte ani wiersz, ani normalny post, ot taki&amp;hellip; piard umysłu 😁</description>
+	  
+		<enclosure url = "https://wiciaki.github.io/images/og.jpg" type="image/jpeg" />
+	  
+    </item>
+    
+    <item>
+      <title>Wszechogarniająca samotność</title>
+      <link>https://wiciaki.github.io/pending/lonely/</link>
+      <pubDate>Tue, 21 Aug 2018 12:46:56 +0200</pubDate>
+      
+      <guid>https://wiciaki.github.io/pending/lonely/</guid>
+      <description>Czasem czuję się cholernie samotny. To jest uczucie pochądzące z wewnątrz</description>
+	  
+		<enclosure url = "https://wiciaki.github.io/images/og.jpg" type="image/jpeg" />
+	  
+    </item>
+    
+    <item>
+      <title>Powrót z imprezy</title>
+      <link>https://wiciaki.github.io/pending/powrotzimp/</link>
+      <pubDate>Tue, 29 May 2018 23:49:26 +0200</pubDate>
+      
+      <guid>https://wiciaki.github.io/pending/powrotzimp/</guid>
+      <description>Przed napisanie czegokolwiek, zrobię takie małe wprowadzenie - jako logik staram się rozbierać każde zachowanie ludzkie na motywację i inne czynniki pierwsze.</description>
+	  
+		<enclosure url = "https://wiciaki.github.io/images/og.jpg" type="image/jpeg" />
+	  
+    </item>
     
     <item>
       <title>Moja trwająca zmiana i życiowa playlista</title>
-      <link>https://wiciaki.github.io/moja-trwaj%C4%85ca-zmiana-i-%C5%BCyciowa-playlista/</link>
+      <link>https://wiciaki.github.io/pending/change/</link>
       <pubDate>Sat, 21 Apr 2018 01:41:42 +0200</pubDate>
       
-      <guid>https://wiciaki.github.io/moja-trwaj%C4%85ca-zmiana-i-%C5%BCyciowa-playlista/</guid>
-      <description></description>
+      <guid>https://wiciaki.github.io/pending/change/</guid>
+      <description>Myślę, że słuchanie muzyki ma inne znaczenie</description>
 	  
-		<enclosure url = https://wiciaki.github.io/images/change.jpg type="image/jpeg" />
+		<enclosure url = "https://wiciaki.github.io/og/change.jpg" type="image/jpeg" />
 	  
     </item>
     
     <item>
       <title>Najkrótsza baśń na świecie</title>
-      <link>https://wiciaki.github.io/najkr%C3%B3tsza-ba%C5%9B%C5%84-na-%C5%9Bwiecie/</link>
+      <link>https://wiciaki.github.io/pending/basn/</link>
       <pubDate>Sun, 25 Mar 2018 00:46:53 +0100</pubDate>
       
-      <guid>https://wiciaki.github.io/najkr%C3%B3tsza-ba%C5%9B%C5%84-na-%C5%9Bwiecie/</guid>
+      <guid>https://wiciaki.github.io/pending/basn/</guid>
       <description></description>
 	  
-		<enclosure url = https://wiciaki.github.io/images/basn.jpg type="image/jpeg" />
+		<enclosure url = "https://wiciaki.github.io/og/basn.jpg" type="image/jpeg" />
 	  
     </item>
     
     <item>
-      <title>Milenialsi</title>
-      <link>https://wiciaki.github.io/milenialsi/</link>
+      <title>Milenialsi, a rasizm... jestem homofobem?</title>
+      <link>https://wiciaki.github.io/milenialsi-a-rasizm...-jestem-homofobem/</link>
       <pubDate>Sun, 04 Mar 2018 17:40:29 +0100</pubDate>
       
-      <guid>https://wiciaki.github.io/milenialsi/</guid>
-      <description>Znamy nasze mocne strony, jesteśmy dobrze wykształceni, i mamy tę potrzebę konkurowania. Z drugiej strony, jesteśmy zadufani w sobie, nieodpowiedzialni i nawiedzani przez nasze własne oczekiwania. Oto my, pokolenie Z.</description>
+      <guid>https://wiciaki.github.io/milenialsi-a-rasizm...-jestem-homofobem/</guid>
+      <description>Znamy nasze mocne strony, jesteśmy dobrze wykształceni, i mamy tę potrzebę konkurowania. Z drugiej strony, jesteśmy zadufani w sobie, nieodpowiedzialni i nawiedzani przez nasze własne oczekiwania.</description>
 	  
-		<enclosure url = https://wiciaki.github.io/images/millennials.jpg type="image/jpeg" />
+		<enclosure url = "https://wiciaki.github.io/og/millennials.jpg" type="image/jpeg" />
+	  
+    </item>
+    
+    <item>
+      <title>Wprowadzenie, a zarazem życiowa historia bo why not?</title>
+      <link>https://wiciaki.github.io/wprowadzenie-a-zarazem-%C5%BCyciowa-historia-bo-why-not/</link>
+      <pubDate>Wed, 28 Feb 2018 12:47:02 +0200</pubDate>
+      
+      <guid>https://wiciaki.github.io/wprowadzenie-a-zarazem-%C5%BCyciowa-historia-bo-why-not/</guid>
+      <description>Chciałbym ten wpis zadedykować temu, czym dla mnie jest życie i o moich planach na nie.
+Podstawowych informacji o mojej osobie jak i o tym, czemu prowadzę tego bloga dowiecie się z zakładki &amp;ldquo;O mnie&amp;rdquo; z menu.</description>
+	  
+		<enclosure url = "https://wiciaki.github.io/images/og.jpg" type="image/jpeg" />
 	  
     </item>
     
@@ -48,10 +109,9 @@
       
       <guid>https://wiciaki.github.io/spotka%C5%82em-anio%C5%82a/</guid>
       <description>To był najgorętszy dzień ostatniego lata.
-Po wsiąknięciu ze 3 książek, 30 herbat i 300 opakowań lodów, ubrałem się z impulsem, by gdzieś wyskoczyć.
-Porwałem kilka litrów wody, stertę kanapek i moją na ten czas obsesję pod tytułem &amp;ldquo;Sztuka Podstępu&amp;rdquo; Kevina Mitnicka. Nie mając kompletnie pomysłu na cel mojej wyprawy, pomyślałem, że obiorę śmieszny algorytm i skręcać będę raz w lewo, a raz w prawo i nie złamię tej zasady, jakkolwiek bezsensowna moja droga nie będzie.</description>
+Po wsiąknięciu ze 3 książek, 30 herbat i 300 opakowań lodów, ubrałem się z impulsem, by gdzieś wyskoczyć.</description>
 	  
-		<enclosure url = https://wiciaki.github.io/images/angel.jpg type="image/jpeg" />
+		<enclosure url = "https://wiciaki.github.io/og/angel.jpg" type="image/jpeg" />
 	  
     </item>
     
@@ -61,10 +121,9 @@ Porwałem kilka litrów wody, stertę kanapek i moją na ten czas obsesję pod t
       <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://wiciaki.github.io/about/</guid>
-      <description>W życiu robiłem piękne rzeczy, a na każdą piękną rzecz przypadały 3 kompromitacje. Myślę, że czyni mnie to ludzkim i nie zmieniłbym w tym życiu niczego, ponieważ tylko dzięki sumie tych wszystkich czynów jestem w miejscu, w którym jestem.
-Strona ta powstała, bym mógł podzielić się czymś ze światem i dać poznać swój sposób myślenia, ale i również, by pełniła ona funkcję swoistego pamiętnika.</description>
+      <description>W życiu robiłem piękne rzeczy, a na każdą piękną rzecz przypadały 3 kompromitacje. Myślę, że czyni mnie to ludzkim i nie zmieniłbym w tym życiu niczego, ponieważ tylko dzięki sumie tych wszystkich czynów jestem w miejscu, w którym jestem.</description>
 	  
-		<enclosure url = https://wiciaki.github.io/images/og.jpg type="image/jpeg" />
+		<enclosure url = "https://wiciaki.github.io/images/og.jpg" type="image/jpeg" />
 	  
     </item>
     
