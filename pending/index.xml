@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pending on Świątynia myśli</title>
@@ -46,6 +46,15 @@
       
       <guid>https://wiciaki.github.io/pending/basn/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Milenialsi, rasizm, homofobia</title>
+      <link>https://wiciaki.github.io/pending/3.-milenialsi/</link>
+      <pubDate>Sun, 04 Mar 2018 17:40:29 +0100</pubDate>
+      
+      <guid>https://wiciaki.github.io/pending/3.-milenialsi/</guid>
+      <description>Znamy nasze mocne strony, jesteśmy dobrze wykształceni, i mamy tę potrzebę konkurowania. Z drugiej strony, jesteśmy zadufani w sobie, nieodpowiedzialni i nawiedzani przez nasze własne oczekiwania.</description>
     </item>
     
   </channel>

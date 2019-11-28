@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post on Świątynia myśli</title>
@@ -7,10 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
     <copyright>Wiktor Mendalka ©</copyright>
-    <lastBuildDate>Thu, 02 May 2019 00:14:54 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 01:41:00 +0100</lastBuildDate>
     
 	<atom:link href="https://wiciaki.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Studiować, nie studiować?</title>
+      <link>https://wiciaki.github.io/studiowa%C4%87-nie-studiowa%C4%87/</link>
+      <pubDate>Mon, 04 Nov 2019 01:41:00 +0100</pubDate>
+      
+      <guid>https://wiciaki.github.io/studiowa%C4%87-nie-studiowa%C4%87/</guid>
+      <description>Chciałbym spisać moje przemyślenia odnośnie studiów i sensu ich podejmowania
+Często widać tę dyskusję, szczególnie wśród programistów; osoby, które decydują się nie iść na studia, szybciej</description>
+    </item>
+    
+    <item>
+      <title>Wiadomość do samego siebie</title>
+      <link>https://wiciaki.github.io/wiadomo%C5%9B%C4%87-do-samego-siebie/</link>
+      <pubDate>Mon, 04 Nov 2019 01:31:44 +0100</pubDate>
+      
+      <guid>https://wiciaki.github.io/wiadomo%C5%9B%C4%87-do-samego-siebie/</guid>
+      <description>Ludzie często mnie pytają czemu tak zapieprzam, czy na pewno tego potrzebuję, czy nie powinienem zwolnić
+Czasem zastanawiam się, czemu w ogóle tak mam.</description>
+    </item>
+    
+    <item>
+      <title>Czym jest Redpill? Zestaw poglądów, który da Ci do myślenia</title>
+      <link>https://wiciaki.github.io/czym-jest-redpill-zestaw-pogl%C4%85d%C3%B3w-kt%C3%B3ry-da-ci-do-my%C5%9Blenia/</link>
+      <pubDate>Tue, 18 Jun 2019 16:28:51 +0200</pubDate>
+      
+      <guid>https://wiciaki.github.io/czym-jest-redpill-zestaw-pogl%C4%85d%C3%B3w-kt%C3%B3ry-da-ci-do-my%C5%9Blenia/</guid>
+      <description>Postanowiłem zebrać do kupy informacje z wielu źródeł i stworzyć megaposta - krowę.
+Ideologia redpill jest czym, do czego się czasem odwołuję i warto byłoby to raz, a porządnie wyjaśnić i zostawić dla potomnych.</description>
+    </item>
     
     <item>
       <title>Ciężko też</title>
@@ -29,15 +59,6 @@
       <guid>https://wiciaki.github.io/i-ci%C4%99%C5%BCko-mi-przyzna%C4%87/</guid>
       <description>Prezentuję coś, co napisałem podczas jednej z podróży.
 Nie jest to stricte ani wiersz, ani normalny post, ot taki&amp;hellip; piard umysłu 😁</description>
-    </item>
-    
-    <item>
-      <title>Milenialsi, a rasizm... jestem homofobem?</title>
-      <link>https://wiciaki.github.io/milenialsi-a-rasizm...-jestem-homofobem/</link>
-      <pubDate>Sun, 04 Mar 2018 17:40:29 +0100</pubDate>
-      
-      <guid>https://wiciaki.github.io/milenialsi-a-rasizm...-jestem-homofobem/</guid>
-      <description>Znamy nasze mocne strony, jesteśmy dobrze wykształceni, i mamy tę potrzebę konkurowania. Z drugiej strony, jesteśmy zadufani w sobie, nieodpowiedzialni i nawiedzani przez nasze własne oczekiwania.</description>
     </item>
     
     <item>

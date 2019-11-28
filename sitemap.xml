@@ -1,22 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wiciaki.github.io/ci%C4%99%C5%BCko-te%C5%BC/</loc>
-    <lastmod>2019-05-02T00:14:54+02:00</lastmod>
+    <loc>https://wiciaki.github.io/post/</loc>
+    <lastmod>2019-11-04T01:41:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wiciaki.github.io/post/</loc>
-    <lastmod>2019-05-02T00:14:54+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://wiciaki.github.io/studiowa%C4%87-nie-studiowa%C4%87/</loc>
+    <lastmod>2019-11-04T01:41:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://wiciaki.github.io/</loc>
+    <lastmod>2019-11-04T01:41:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wiciaki.github.io/wiadomo%C5%9B%C4%87-do-samego-siebie/</loc>
+    <lastmod>2019-11-04T01:31:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wiciaki.github.io/czym-jest-redpill-zestaw-pogl%C4%85d%C3%B3w-kt%C3%B3ry-da-ci-do-my%C5%9Blenia/</loc>
+    <lastmod>2019-06-18T16:28:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wiciaki.github.io/ci%C4%99%C5%BCko-te%C5%BC/</loc>
     <lastmod>2019-05-02T00:14:54+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -27,7 +40,6 @@
   <url>
     <loc>https://wiciaki.github.io/pending/</loc>
     <lastmod>2018-08-21T12:46:56+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -51,7 +63,7 @@
   </url>
   
   <url>
-    <loc>https://wiciaki.github.io/milenialsi-a-rasizm...-jestem-homofobem/</loc>
+    <loc>https://wiciaki.github.io/pending/3.-milenialsi/</loc>
     <lastmod>2018-03-04T17:40:29+01:00</lastmod>
   </url>
   
@@ -72,12 +84,10 @@
   
   <url>
     <loc>https://wiciaki.github.io/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://wiciaki.github.io/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
