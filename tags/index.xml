@@ -6,10 +6,6 @@
     <description>Recent content in Tags on Świątynia myśli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <copyright>Wiktor Mendalka ©</copyright>
-    
-	<atom:link href="https://wiciaki.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Wiktor Mendalka ©</copyright><atom:link href="https://wiciaki.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
