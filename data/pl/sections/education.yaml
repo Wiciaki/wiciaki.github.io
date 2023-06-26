@@ -1,0 +1,53 @@
+# section information
+section:
+  name: Edukacja
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Magister Inżynier Informatyki
+  icon: fa-university
+  timeframe: 2023 - W trakcie
+  institution:
+    name: Uniwersytet Pedagogiczny im. Komisji Edukacji Narodowej w Krakowie
+    url: https://www.up.krakow.pl/
+
+- name: Inżynier Informatyki - wydział EAIiIB
+  icon: fa-graduation-cap
+  timeframe: 2017 - 2022
+  institution:
+    name: Akademia Górniczo-Hutnicza w Krakowie
+    url: "https://www.agh.edu.pl/"
+  publications:
+  - title: Optymalizacja schematów blokowych algorytmicznych maszyn stanów.
+    url: "/files/WM-dyplom-inf1.pdf"
+  extracurricularActivities:
+  - Lider koła naukowego AGH Mobile
+  - Certyfikat języka angielskiego C1
+
+- name: Licencjat - kognitywistyka
+  icon: fa-graduation-cap
+  timeframe: 2019 - W trakcie
+  institution:
+    name: Uniwersytet Jagielloński w Krakowie 
+    url: "https://uj.edu.pl/"
+  publications:
+  - title: TBA.
+    url: "/files/WM-dyplom-kogni1.pdf"
+
+- name: Licencjat - zarządzanie
+  icon: fa-graduation-cap
+  timeframe: 2019 - 2022
+  institution:
+    name: Uniwersytet Jagielloński w Krakowie
+    url: "https://uj.edu.pl/"
+  publications:
+  - title: Oddziaływanie informacji o kraju pochodzenia produktu na decyzje nabywcze cudzoziemców w Polsce.
+    url: "/files/WM-dyplom-zarz1.pdf"
+  extracurricularActivities:
+  - Certyfikat języka angielskiego biznesowego C2

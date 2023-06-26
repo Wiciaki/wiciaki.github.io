@@ -1,0 +1,40 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: C#
+  summary: "8+ years of experience.<br>While I started with this language, I love how it always remained a part of my career and how very practical it is.<br>I keep monitoring how the entire .NET ecosystem develops from year to year."
+
+- name: Visual Studio
+  summary: 8+ years using this IDE and it never really failed me. I've used it both with and without ReSharper.<br>I'm also familiar with standalone JetBrains products (Rider) and with Visual Studio Code.
+
+- name: Git
+  summary: 5+ years using git on a daily basis for basic versioning needs.<br>After a few years of working alone, I felt the need to pick up a git masterclass to deepen my understanding of this tool.<br>I've worked with both GitHub and Gitlab. 
+
+- name: Docker
+  summary: 3+ years using this tool and could never go back. Docker integrates with my workflow seamlessly and solves many issues - bug replicability, code isolation, security vulnerabilities.
+
+- name: ASP.NET Core
+  summary: 2+ years working with this environment and my experience has been phenomenal; it's well supported and documented, and builds upon the technologies I have already loved.
+
+- name: Microsoft SQL & postgresql
+  summary: "2+ years of experience interacting with databases in real life scenarios. Just the basics required in every backend developer's toolbox."
+
+- name: Rust
+  summary: "1 year of commercial experience. Rust is a masterpiece of a language and since I've discovered it, my every personal project has been using it. I'm hoping I will have a chance to work with it again in the future."
+
+- name: C++ & DirectX
+  summary: "1 year of non-commercial experience, I've had some fun side projects featuring creating UI with DirectX from scratch and injecting it into other applications/games."
+
+- name: Unity
+  summary: "Used this game engine multiple times during my studies (see projects).<br>It was a love-hate relationship but still I feel like I got a grip on this important C#-related tool."
+

@@ -1,0 +1,52 @@
+# section information
+section:
+  name: Publications
+  id: publications
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: "Computer Science"
+  filter: "compsci"
+- name: "Cognitive Science"
+  filter: "cognisci"
+- name: Management
+  filter: "management"
+
+# your publications
+publications:
+- title: Optimization of the flowcharts representing the algorithmic state machines
+  publishedIn:
+    name: AGH Repository
+    date: 2022-05-18
+  paper:
+    summary: The aim of this work is to explore the possibilities of minimizing the operational vertices of algorithmic state machines. The author presents the existing types of these machines and various methods of their optimization - incl. the classical method, as well as the benefits of conducting the optimization. A solution is proposed based on a combination of a few simple methods of optimizing conditional vertices. On its basis, the software implementing this theory is developed with the help of the C# language. This software is adapted to operate on ASMCreator files, which is a popular program for creating flowcharts and compiling them into text form. The operation of the program has been tested on numerous author's cases and seems to be stable and reliable, but it is not certain that the program generates the optimal result for each given flowchart. In some examples, it is possible to see unrealized minimization due to the lack of implementation of the conditional vertex minimization algorithm, the idea of which has not been fully explored in this paper.
+    url: "/files/WM-dyplom-inf1.pdf"
+  categories: ["compsci"]
+  tags: ["C#", "Algorithmic state machines"]
+
+- title: Influence of information about the product's contry of origin on purchasing decisions of foreigners in Poland
+  publishedIn:
+    name:  Jagiellonian University Repository
+    date: 2022-07-15
+    url: https://ruj.uj.edu.pl/xmlui/handle/item/297499
+  paper:
+    summary: The purpose of the study was to systematize knowledge about the effect of the country of origin of the product and to determine the impact of the importance of the country of origin of the product on the purchasing decisions of a selected group of foreigners living in Poland. Chapter one of the work characterizes the purchasing decisions of consumers and the determinants of these decisions. Chapter two of the work describes the concepts of the effect of the country of origin of the product as a factor affecting purchasing decisions. The third chapter of the work presents the results and analyzes the research conducted on how information about the country of origin of the product affects the purchasing decisions of foreigners living in Poland. The methods used in the work are the descriptive method, as well as the survey method and the method of own research. The information contained in the various chapters of the work was based on Polish and English-language literature on the subject, as well as on scientific articles and materials available on the Internet.
+    url: "/files/WM-dyplom-zarz1.pdf"
+  categories: ["management"]
+  tags: ["Country of origin effect", "Purchasing decisions", "Foreigners in Poland"]
+
+###
+#  publications:
+#  - title: Optimization of the flowcharts representing the algorithmic state machines.
+#    url: "/files/WM-dyplom-inf1.pdf"
+
+#      publications:
+#  - title: Influence of information about the product's contry of origin on purchasing decisions of foreigners in Poland.
+#    url: "/files/WM-dyplom-zarz1.pdf"
