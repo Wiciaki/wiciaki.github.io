@@ -1,0 +1,40 @@
+# section information
+section:
+  name: Hard Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: .NET & C#
+  summary: "8+ years of experience.<br>Good understanding of standard libraries and the core .NET ecosystem. Designing, building and maintaining reliable and efficient applications that are scalable.<br>I closely follow changes and additions to this platform."
+
+- name: Version Control (Git..)
+  summary: 8+ years using Git on a daily basis, but only recently I started to pick up more advanced concepts like git-flow which are very relevant to working in larger groups and organizations.<br>Prefer to work using Trunk Based Development whenever possible.
+
+- name: IDE (Visual Studio..)
+  summary: 8+ years using it both with and without ReSharper.<br>I'm also familiar with Visual Studio Code and standalone JetBrains products like Rider.
+
+- name: Docker
+  summary: 3+ years using this tool and could never go back. Docker integrates with my workflow seamlessly and solves many issues - bug replicability, code isolation, security vulnerabilities.
+
+- name: ASP.NET (Core, MVC)
+  summary: 2+ years. Using Entity Framework and Blazor I was able to support a medical startup with development of their backend app. I've also picked up React recently as a frontend solution to complete my tech stack.
+
+- name: Databases (MS SQL & postgres)
+  summary: "2+ years of experience interacting with databases in real life scenarios. Just the basics required in every backend developer's toolbox."
+
+- name: Rust
+  summary: "1 year of commercial experience. Rust is a masterpiece of a language and since I've discovered it, my personal projects have all been running it. I'm hoping I will have a chance to work with it again in the future."
+
+- name: C++ & DirectX
+  summary: "1 year of non-commercial experience, I've had some fun side projects featuring creating UI with DirectX from scratch and injecting it into other applications/games."
+
+- name: Unity
+  summary: "Used this game engine multiple times during my studies (see projects).<br>It was a love-hate relationship but still I feel like I got a grip on this important C#-related tool."
+

@@ -1,0 +1,18 @@
+# some information about you
+name: "Wiktor Mendalka"
+nickname: "Wiktor"  
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Cześć. Mam na imię"
+image: "images/author/wiktor.jpg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "wiktor.mendalka@outlook.com"
+  linkedin: wiktor-mendalka
+  github: Wiciaki
+
+# some summary about what you do
+summary:
+  - Jestem programistą .NET fullstack
+  - Moim głównym polem zainteresowań jest programowanie obiektowe (OOP)
+  - Jestem edukatorem i przedsiębiorcą
+  - Uczestniczę w open source i tworzę hobbistyczne projekty

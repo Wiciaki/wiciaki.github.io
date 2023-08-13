@@ -1,0 +1,53 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Master of Science in Computer Science
+  icon: fa-university
+  timeframe: 2023 - Ongoing
+  institution:
+    name: Pedagogical University of Krakow
+    url: https://www.up.krakow.pl/en/
+
+- name: Bachelor of Science in Computer Science - EAIiIB department
+  icon: fa-graduation-cap
+  timeframe: 2017 - 2022
+  institution:
+    name: AGH University of Science and Technology
+    url: "https://www.agh.edu.pl/en/"
+  publications:
+  - title: Optimization of the flowcharts representing the algorithmic state machines.
+    url: "/files/WM-dyplom-inf1.pdf"
+  extracurricularActivities:
+  - Leader of the AGH Mobile science club
+  - English C1 language certificate
+
+- name: Bachelor of Science in Cognitive Science
+  icon: fa-graduation-cap
+  timeframe: 2019 - Ongoing
+  institution:
+    name: Jagiellonian University
+    url: "https://en.uj.edu.pl/"
+  publications:
+  - title: TBA.
+    url: "/files/WM-dyplom-kogni1.pdf"
+
+- name: Bachelor of Management
+  icon: fa-graduation-cap
+  timeframe: 2019 - 2022
+  institution:
+    name: Jagiellonian University
+    url: "https://en.uj.edu.pl/"
+  publications:
+  - title: Influence of information about the product's contry of origin on purchasing decisions of foreigners in Poland.
+    url: "/files/WM-dyplom-zarz1.pdf"
+  extracurricularActivities:
+  - Business English C2 certificate
