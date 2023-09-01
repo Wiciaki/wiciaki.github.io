@@ -14,9 +14,6 @@ skills:
 - name: .NET & C#
   summary: "8+ years of experience.<br>Good understanding of standard libraries and the core .NET ecosystem. Designing, building and maintaining reliable and efficient applications that are scalable.<br>I closely follow changes and additions to this platform."
 
-- name: Node.js & TypeScript
-  summary: "2 years of experience. I've used Node.js to build a few backend applications and I'm familiar with the most popular libraries and frameworks.<br>It's a great tool for prototyping and I'm always happy to use it when the project allows it."
-
 - name: Version Control (Git..)
   summary: 8+ years using Git on a daily basis, but only recently I started to pick up more advanced concepts like git-flow which are very relevant to working in larger groups and organizations.<br>Prefer to work using Trunk Based Development whenever possible.
 
@@ -29,7 +26,10 @@ skills:
 - name: ASP.NET (Core, MVC)
   summary: 2+ years. Using Entity Framework and Blazor I was able to support a medical startup with development of their backend app. I've also picked up React recently as a frontend solution to complete my tech stack.
 
-- name: Databases (MS SQL, postgres, Mongo)
+- name: Node.js & TypeScript
+  summary: "1 year of experience. I've used Node.js to build a few backend applications and I'm familiar with the most popular libraries and frameworks.<br>It's a great tool for prototyping and I'm always happy to use it when the project allows it."
+
+- name: MS SQL, postgres, Mongo
   summary: "2+ years of experience interacting with databases in real life scenarios. Just the basics required in every backend developer's toolbox."
 
 - name: Rust
