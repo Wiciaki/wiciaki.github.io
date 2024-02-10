@@ -1,0 +1,130 @@
+# More documentation here: https://github.com/nicksnyder/go-i18n
+[home]
+other = "Strona główna"
+
+[posts]
+other = "Posty"
+
+[toc_heading]
+other = "Spis treści"
+
+[tags]
+other = "Tagi"
+
+[categories]
+other = "Kategorie"
+
+[at]
+other = "w"
+
+[resume]
+other = "Moje CV"
+
+[navigation]
+other = "Nawigacja"
+
+[contact_me]
+other = "Skontaktuj się:"
+
+[email]
+other = "Email"
+
+[phone]
+other = "Telefon"
+
+[newsletter_text]
+other = "Zapisz się do newslettera"
+
+[newsletter_input_placeholder]
+other = "Wprowadź email"
+
+[newsletter_warning]
+other = "Podając adres email, zgadzasz się na otrzymywanie newslettera email."
+
+[submit]
+other = "Wyślij"
+
+[hugoAttributionText]
+other = "Stworzone z"
+
+[prev]
+other = "Wróć"
+
+[next]
+other = "Dalej"
+
+[share_on]
+other = "Udostępnij na"
+
+[improve_this_page]
+other = "Popraw tę stronę"
+
+[out_of]
+other = "poza"
+
+[publications]
+other = "Publikacje"
+
+[taken_courses]
+other = "Odbyte kursy"
+
+[course_name]
+other = "Nazwa kursu"
+
+[total_credit]
+other = "Max. ocena"
+
+[obtained_credit]
+other = "Zdobyta ocena"
+
+[extracurricular_activities]
+other = "Dodatkowe aktywności"
+
+[show_more]
+other = "Pokaż więcej"
+
+[show_less]
+other = "Pokaż mniej"
+
+[responsibilities]
+other = "Obowiązki:"
+
+[present]
+other = "Teraz"
+
+[comments_javascript]
+other = "Proszę włączyć JavaScript, aby zobaczyć"
+
+[comments_by]
+other = "komentarze dzięki"
+
+[read]
+other = "Czytaj"
+
+[project_star]
+other = "Star"
+
+[project_details]
+other = "Szczegóły"
+
+[err_404]
+other = "Nie odnaleziono strony, której szukasz."
+
+[more]
+other = "Więcej"
+
+[view_certificate]
+other = "Zobacz certyfikat"
+
+[notes]
+other = "Notatki"
+
+[disclaimer_text]
+other = "Informacja o licencji"
+
+[search]
+other = "Szukaj"
+
+[minute]
+one = "minuta"
+other = "minut"

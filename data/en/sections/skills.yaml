@@ -1,0 +1,60 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: .NET & C#
+  logo: /images/sections/skills/csharp.png
+  summary: "4 years of experience. Good understanding of standard libraries and the core .NET ecosystem. Designing, building and maintaining reliable and efficient applications that are scalable. I closely follow changes and additions to this platform."
+
+- name: ASP.NET (Core, MVC)
+  logo: /images/sections/skills/aspnet.png
+  summary: 2 years of experience. Using Entity Framework and Angular I was able to support a medical startup with development of their backend app. Except for designing new APIs, I'm also capable of optimizing database requests and architecture and know basics of Redis.
+
+- name: Node.js & TypeScript
+  logo: /images/sections/skills/nodejs.png
+  summary: "2 years of experience. I've used Node.js to build a few backend applications and I'm familiar with the most popular libraries and frameworks. It's a great tool for prototyping and I'm always happy to use it when the project allows it."
+
+- name: Angular
+  logo: /images/sections/skills/angular.png
+  summary: "2 years of experience during which I supported the frontend team anytime it was needed. Mostly, I can read Angular and add support for updated backend responses."
+
+- name: SQL (Microsoft, postgres)
+  logo: /images/sections/skills/sql.png
+  summary: "2 years of experience interacting with SQL databases in real life scenarios. Just the basics required in every backend developer's toolbox."
+
+- name: MongoDB
+  logo: /images/sections/skills/mongodb.png
+  summary: "2 years of experience. Not my database of choice, but I'm familiar with the most popular ORM - mongoose."
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: 4+ years using this tool and could never go back. Docker integrates with my workflow seamlessly and solves many issues - bug replicability, code isolation, security vulnerabilities.
+
+- name: Version Control (Git)
+  logo: /images/sections/skills/git.png
+  summary: 4+ years using Git in commercial environment, I've used git-flow in one of the previous projects but prefer to operate using Trunk Based Development whenever possible.
+
+- name: IDE (Visual Studio)
+  logo: /images/sections/skills/visualstudio.png
+  summary: 4+ years using it both with and without ReSharper. I'm also familiar with Visual Studio Code and standalone JetBrains products like Rider.
+
+- name: Rust
+  logo: /images/sections/skills/rust.png
+  summary: "1 year of commercial experience. Rust is a masterpiece of a language and since I've discovered it, my personal projects have all been running it. I'm hoping I will have a chance to work with it again in the future."
+
+- name: C++ & DirectX
+  logo: /images/sections/skills/cpp.png
+  summary: "1 year of non-commercial experience, I've had some fun side projects featuring creating UI with DirectX from scratch and injecting it into other applications/games."
+
+- name: Unity
+  logo: /images/sections/skills/unity.png
+  summary: "Used this game engine multiple times during my studies (see projects). It was a love-hate relationship but still I feel like I got a grip on this important C#-related tool."

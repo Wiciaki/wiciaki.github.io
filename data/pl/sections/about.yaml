@@ -1,0 +1,84 @@
+# section information
+section:
+  name: O mnie
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Programista
+# your company information
+company:
+  name: ProSoft
+  #url: "https://aplikacja.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=09f733f6-e164-4198-9c06-3712a2485a5e"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Świadczę usługi dla branży IT od 2014 r.<br>Specjalizuję się w tworzeniu dynamicznych aplikacji internetowych ASP.NET, które płynnie łączą innowacyjność i funkcjonalność.<br>Mentoruję specjalistów IT w zakresie umiejętności osobistych i hobbystycznie buduję rozwiązania SaaS.<br>Poza pracą biorę udział w zajęciach akademickich.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "wiktor.mendalka@outlook.com"
+
+- name: GitHub
+  icon: "fab fa-github"
+  url: "https://www.github.com/Wiciaki"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/Wiktor-Mendalka"
+
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "Pobierz CV (.pdf)"
+  url: "files/Wiktor Mendalka.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: soft-skill-indicator
+  name: Pasja
+  percentage: 95
+  color: "#A020F0"
+
+- type: soft-skill-indicator
+  name: Odpowie-dzialność
+  percentage: 90
+  color: blue
+
+- type: soft-skill-indicator
+  name: Praca w zespole
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Kreatywność
+  percentage: 85
+  color: green
+
+- type: soft-skill-indicator
+  name: Elastyczność
+  percentage: 80
+  color: "#00FFFF"
+
+- type: soft-skill-indicator
+  name: Przywództwo
+  percentage: 80
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

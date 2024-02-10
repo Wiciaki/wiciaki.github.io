@@ -1,0 +1,60 @@
+# section information
+section:
+  name: Umiejętności
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: .NET & C#
+  logo: /images/sections/skills/csharp.png
+  summary: "4 lata doświadczenia. Dobre zrozumienie standardowych bibliotek i podstawowego ekosystemu .NET. Projektowanie, budowanie i utrzymywanie niezawodnych i wydajnych aplikacji, które są skalowalne. Uważnie śledzę zmiany i dodatki do tej platformy."
+
+- name: ASP.NET (Core, MVC)
+  logo: /images/sections/skills/aspnet.png
+  summary: 2 lata doświadczenia. Używając ORM Entity Framework i Angular byłem w stanie wesprzeć startup medyczny w rozwoju ich aplikacji backendowej. Oprócz projektowania nowych API, jestem również w stanie optymalizować zapytania do bazy i architekturę projektu backendu. Znam podstawy Redis.
+
+- name: Node.js & TypeScript
+  logo: /images/sections/skills/nodejs.png
+  summary: "2 lata doświadczenia. Używałem Node.js do budowy kilku aplikacji backendowych i znam najpopularniejsze biblioteki i frameworki. Jest to świetne narzędzie do prototypowania i zawsze chętnie z niego korzystam, gdy projekt na to pozwala."
+
+- name: Angular
+  logo: /images/sections/skills/angular.png
+  summary: "2 lata doświadczenia, podczas których wspierałem zespół frontendowy, kiedy tylko było to potrzebne. Głównie mogę czytać kod Angulara i dodawać wsparcie dla zaktualizowanych odpowiedzi backendu."
+
+- name: SQL (Microsoft, postgres)
+  logo: /images/sections/skills/sql.png
+  summary: "2 lata doświadczenia w interakcji z bazami danych SQL w rzeczywistych scenariuszach. Znam podstawy wymagane w zestawie narzędzi każdego programisty backendu."
+
+- name: MongoDB
+  logo: /images/sections/skills/mongodb.png
+  summary: "2 lata doświadczenia. Nie jest to moja najbardziej preferowana baza danych, ale znam najpopularniejszy ORM - mongoose."
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: Używam tego narzędzia od ponad 4 lat i nigdy nie mógłbym wrócić. Docker płynnie integruje się z moim środowiskiem pracy i rozwiązuje wiele problemów - powtarzalność błędów, izolacja kodu, luki w zabezpieczeniach.
+
+- name: Kontrola wersji (Git)
+  logo: /images/sections/skills/git.png
+  summary: Ponad 4 lata korzystania z Git w środowisku komercyjnym, używałem git-flow w jednym z poprzednich projektów, ale wolę pracować z Trunk Based Development, kiedy tylko jest to możliwe.
+
+- name: IDE (Visual Studio)
+  logo: /images/sections/skills/visualstudio.png
+  summary: Od ponad 4 lat używam go zarówno z ReSharperem, jak i bez niego. Znam również Visual Studio Code i samodzielne produkty JetBrains, takie jak Rider.
+
+- name: Rust
+  logo: /images/sections/skills/rust.png
+  summary: "1 rok doświadczenia komercyjnego. Rust to arcydzieło języka i odkąd go odkryłem, wszystkie moje osobiste projekty są w nim uruchamiane. Mam nadzieję, że będę miał okazję pracować z nim ponownie w przyszłości."
+
+- name: C++ & DirectX
+  logo: /images/sections/skills/cpp.png
+  summary: "1 rok doświadczenia niekomercyjnego, miałem kilka fajnych projektów pobocznych obejmujących tworzenie interfejsu użytkownika z DirectX od podstaw i wstrzykiwanie go do innych aplikacji / gier."
+
+- name: Unity
+  logo: /images/sections/skills/unity.png
+  summary: "Używałem tego silnika wielokrotnie podczas studiów (zobacz projekty). To był związek miłości i nienawiści, ale mimo to czuję, że opanowałem to ważne narzędzie związane z C#."

@@ -1,0 +1,57 @@
+# section information
+section:
+  name: Projekty
+  id: projects
+  enable: true
+  weight: 7
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Wszystkie
+  filter: "all"
+- name: Profesjonalne
+  filter: "professional"
+- name: Akademickie
+  filter: "academic"
+- name: Hobbistyczne
+  filter: "hobby"
+
+# your projects
+projects:
+- name: SparkTech
+  role: C#
+  timeline: "2019 - 2021"
+  url: https://github.com/Wiciaki/SparkTech
+  summary: Próba stworzenia uniwersalnego frameworka do tworzenia oprogramowania cheaterskiego w grach. Jest to zestaw interfejsów API, które pozwalają na szybsze tworzenie nowych platform rozszerzających zachowanie gier.
+  tags: ["professional"]
+
+- name: SoundResearchVRGame
+  role: Unity - C#
+  timeline: "2023"
+  url: https://github.com/Wiciaki/SoundResearchVRGame
+  summary: Gra dla urządzenia VR Oculus Quest do badania percepcji związanej z dźwiękiem w środowiskach wirtualnych.<br>Rejestruje dane uczestników podczas wykonywania zadania.
+  tags: ["academic"]
+
+- name: Opti
+  role: C#
+  timeline: "2022"
+  url: https://github.com/Wiciaki/Opti
+  summary: Projekt inżynierski mający na celu optymalizację operacji na schematach blokowych generowanych przez ASMCreator. Zrealizowany jako część mojej pracy dyplomowej z informatyki.
+  tags: ["academic"]
+
+- name: ConsoleRpg
+  url: https://github.com/Wiciaki/ConsoleRpg
+  role: C#
+  timeline: "2022"
+  summary: Prosta gra konsolowa w stylu RPG, którą stworzyłem jeszcze na studiach. Posiada wiele możliwości wyboru postaci i pozwala na łatwą rozbudowę o nowe funkcje.
+  tags: ["hobby"]
+
+- name: Portfolio które przeglądasz :)
+  url: https://github.com/Wiciaki/wiciaki.github.io
+  role: Hugo
+  timeline: "2023"
+  summary: Delikatne dla zasobów przeglądarki portfolio stworzone przy użyciu generatorów kodu statycznego. Zobacz podziękowania w stopce na dole strony.
+  tags: ["professional"]
