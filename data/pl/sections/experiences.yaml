@@ -1,0 +1,97 @@
+# section information
+section:
+  name: Doświadczenie
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+  
+# Your experiences
+experiences:
+- company:
+    name: SparkTech (programowanie + mentoring)
+    url: https://www.coursify.pl/
+    location: Zdalnie
+    # company overview
+    overview: SparkTech to inicjatywa, która koncentruje się na poprawie standardów jakości kodu zarówno poprzez edukację, jak i dostarczanie konkretnych rozwiązań technicznych.
+  positions:
+  - designation: Właściciel firmy
+    start: 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Prowadzenie szkoleń dla specjalistów IT.
+    - Tworzenie własnej aplikacji SaaS.
+
+- company:
+    name: ProSoft (software house)
+    location: Zdalnie
+    overview: Główny klient - branża iGaming
+  positions:
+  - designation: Programista backendu
+    start: 2023
+    responsibilities:
+    - Stack - TypeScript, Node.js, Mongoose, Azure Functions
+    - Testy - Jest, Vitest
+    - Wzory architektoniczne - CQRS, Event Sourcing, DI
+    - Paradygmat pracy z Git - Trunk Based Development
+    - Pracowałem bezpośrednio z klientem i regularnie prowadziłem prezentacje biznesowe
+
+- company:
+    name: Firma NDA
+    location: Kraków
+    overview: Praca hybrydowa w Krakowie, branża medyczna
+  positions:
+  - designation: Programista fullstack
+    start: 2020
+    end: 2023
+    responsibilities:
+    - Stack - ASP.NET Core, Angular, MS SQL, Entity Framework, Redis
+    - Testy - NUnit, NSubstitute, Jasmine, Selenium
+    - Wzory architektoniczne - MVC, Messaging, Publish/Subscribe, DI
+    - Paradygmat pracy z Git - GitFlow
+    - Później pomagałem w przeprowadzaniu rozmów technicznych i nadzorowaniu nowych członków zespołu
+
+- company:
+    name: Freelancer
+    location: Zdalnie
+    overview: Po tym, jak LeagueSharp przestał działać, dostałem kilka rekomendacji, aby dołączyć do podobnych projektów. To było bardzo przydatne, ponieważ w tamtym czasie spędzałem większość czasu próbując ukończyć 3 różne kierunki na 2 uniwersytetach, a praca zdalna w niepełnym wymiarze godzin była bardzo wygodna. Startupy technologiczne, z którymi pracowałem, operowały głównie w Chinach i Rosji.
+  positions:
+  - designation: Programista i konsultant ds. bezpieczeństwa
+    start: 2017
+    end: 2020
+    responsibilities:
+    - Tworzenie aplikacji konsolowych w .NET.
+    - Rozwój interfejsu użytkownika DirectX przy użyciu zarówno C# (SharpDX), jak i natywnego C++.
+    - Tworzenie aplikacji konsolowych w Rust.
+    - Utrzymanie repozytorium Git i przeglądy kodu z członkami zespołu.
+
+- company:
+    name: Giganci Programowania
+    url: https://www.giganciprogramowania.edu.pl/
+    location: Kraków
+    overview: Praca na część etatu, w której mogłem się wiele nauczyć :) Pracowałam głównie z uczniami w wieku około 16 lat.
+  positions:
+  - designation: Nauczyciel programowania
+    start: 2018
+    end: 2021
+    responsibilities:
+    - Prowadzenie zajęć z C# i bezpieczeństwa aplikacji.
+    - Przygotowuje warsztaty, próbując zafascynować młodsze dzieci programowaniem w Scratchu.
+    - Później; kontrola jakości i nadzorowanie innych nauczycieli
+
+- company:
+    name: LeagueSharp
+    location: Zdalnie
+    overview: Projekt Game Cheat, moje dodatki i wtyczki były używane przez ponad 50 000 płacących klientów na całym świecie. Chociaż ten projekt może nie wyglądać poważnie na pierwszy rzut oka, był dla mnie naprawdę znaczący. Tutaj podjąłem decyzję o pozostaniu przy kodowaniu do końca mojej kariery i poznałem wielu przyjaciół :)
+  positions:
+  - designation: Współtwórca
+    start: 2014
+    end: 2017
+    responsibilities:
+    - Rozwój i utrzymanie różnych aplikacji konsolowych C#.
+    - Integracja z natywnymi interfejsami API C++ za pośrednictwem C++/CLI (uwaga; to inny język niż C++).
+    - Interakcja z klientami i moderowanie forów.

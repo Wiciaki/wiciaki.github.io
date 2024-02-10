@@ -1,0 +1,55 @@
+# section information
+section:
+  name: Wykształcenie
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Magister inżynier informatyki
+  icon: fa-university
+  timeframe: 2023 - W trakcie
+  institution:
+    name: Uniwersytet Komisji Edukacji Narodowej w Krakowie 
+    url: https://www.uken.krakow.pl/
+  publications:
+  - title: Rozwój i badania systemu oprogramowania do rozpoznawania obrazów graficznych
+
+- name: Inżynier informatyki - wydział EAIiIB
+  icon: fa-graduation-cap
+  timeframe: 2017 - 2022
+  institution:
+    name: Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie
+    url: "https://www.agh.edu.pl/"
+  publications:
+  - title: Optymalizacja schematów blokowych algorytmicznych maszyn stanów.
+    url: "/files/WM-dyplom-inf1.pdf"
+  extracurricularActivities:
+  - Przewodniczący koła naukowego AGH Mobile
+  - Certyfikat języka angielskiego - C1
+
+- name: Licencjat kognitywistyki - wydział Filozoficzny
+  icon: fa-graduation-cap
+  timeframe: 2019 - 2023
+  institution:
+    name: Uniwersytet Jagielloński
+    url: "https://uj.edu.pl/"
+  publications:
+  - title: Identyfikacja ukrytych obiektów dla percepcji wizualnej w rzeczywistości wirtualnej
+    url: "/files/WM-dyplom_kogni1.pdf"
+
+- name: Licencjat zarządzania - wydział Zarządzania i Komunikacji Społecznej
+  icon: fa-graduation-cap
+  timeframe: 2019 - 2022
+  institution:
+    name: Uniwersytet Jagielloński
+    url: "https://uj.edu.pl/"
+  publications:
+  - title: Oddziaływanie informacji o kraju pochodzenia produktu na decyzje nabywcze cudzoziemców w Polsce.
+    url: "/files/WM-dyplom-zarz1.pdf"
+  extracurricularActivities:
+  - Certyfikat języka angielskiego - biznesowy C2
