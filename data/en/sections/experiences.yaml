@@ -1,0 +1,97 @@
+# section information
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+  
+# Your experiences
+experiences:
+- company:
+    name: SparkTech (programming + mentoring)
+    url: https://www.coursify.pl/
+    location: Remote
+    # company overview
+    overview: SparkTech is an initiative that focuses on improving code quality standards by both educating and providing concrete technical solutions.
+  positions:
+  - designation: Business owner
+    start: 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Conducting training courses for IT professionals.
+    - Building own SaaS application.
+
+- company:
+    name: ProSoft (software house)
+    location: Remote
+    overview: Main client - iGaming industry
+  positions:
+  - designation: Backend developer
+    start: 2023
+    responsibilities:
+    - Stack - TypeScript, Node.js, Mongoose, Azure Functions
+    - Testing - Jest, Vitest
+    - Architectural patterns - CQRS, Event Sourcing, DI
+    - Git paradigm - Trunk Based Development
+    - I've worked directly with the client and regularly made business presentations
+
+- company:
+    name: NDA company
+    location: Kraków, Poland
+    overview: Hybrid work in Kraków, medical industry
+  positions:
+  - designation: Fullstack developer
+    start: 2020
+    end: 2023
+    responsibilities:
+    - Stack - ASP.NET Core, Angular, MS SQL, Entity Framework
+    - Testing - NUnit, NSubstitute, Jasmine, Selenium
+    - Architectural patterns - MVC, Messaging, Publish/Subscribe, DI
+    - Git paradigm - GitFlow
+    - Later on helped with technical interviews & overseeing new team members
+
+- company:
+    name: Freelance
+    location: Remote
+    overview: After LeagueSharp ceased operation, I got a handful of recommendations to join similiar projects.<br>It came really handy, as at that time I was spending most of my time trying to graduate from 3 different courses at 2 unis and a part-time remote programming job was very convenient.<br>The tech startups I worked with were mostly China and Russia based.
+  positions:
+  - designation: Developer & security consultant
+    start: 2017
+    end: 2020
+    responsibilities:
+    - Console app development with .NET.
+    - DirectX UI development using both C# (SharpDX) and native C++.
+    - Rust console app development.
+    - Git repository maintenance & code reviews with team members.
+
+- company:
+    name: Coding Giants
+    url: https://www.codinggiants.com/
+    location: Kraków, Poland
+    overview: Part-time job where I was able to learn a lot :)<br>I mostly worked with students around the age of 16.
+  positions:
+  - designation: Programming teacher
+    start: 2018
+    end: 2021
+    responsibilities:
+    - Conducting C# & security classes.
+    - Perparing workshops, trying to fascinate younger kids with Scratch programming.
+    - Later on; quality control & supervising other teachers
+
+- company:
+    name: LeagueSharp
+    location: Remote
+    overview: Game cheat project, my addons and plugins were used by 50.000+ paying customers worldwide.<br>While this project might not look serious on the first glance, it was really significant to me.<br>Here I made the decision to stick with coding for the rest of my career and made many friends. :)
+  positions:
+  - designation: Contributor
+    start: 2014
+    end: 2017
+    responsibilities:
+    - Development & maintenance of various C# console apps.
+    - Integrating with C++ native APIs via C++/CLI (note; it's a different language than C++).
+    - Interacting with customers & moderating the forums.
