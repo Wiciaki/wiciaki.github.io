@@ -11,8 +11,8 @@ section:
 designation: Programmer
 # your company information
 company:
-  name: ProSoft
-  #url: "https://aplikacja.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=09f733f6-e164-4198-9c06-3712a2485a5e"
+  name: GeekForce
+  url: "https://geekforce.io/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
