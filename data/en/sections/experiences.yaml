@@ -11,11 +11,11 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: SparkTech (programming + mentoring)
+    name: Coursify (programming + mentoring)
     url: https://www.coursify.pl/
     location: Remote
     # company overview
-    overview: SparkTech is an initiative that focuses on improving code quality standards by both educating and providing concrete technical solutions.
+    overview: Coursify is an initiative that focuses on improving code quality standards by both educating and providing concrete technical solutions.
   positions:
   - designation: Business owner
     start: 2023
@@ -23,8 +23,24 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
+    - Software House Services.
+    - Recruitment Services.
     - Conducting training courses for IT professionals.
-    - Building own SaaS application.
+
+    - company:
+      name: SavageTech
+      url: "https://savagetech.gg/"
+      location: Remote
+      overview: Main client - iGaming industry.<br>Continuation of the contract with GeekForce.
+      positions:
+      - designation: Backend developer
+      start: 2024
+      responsibilities:
+      - Stack - TypeScript, Node.js, Mongoose, Azure Functions
+      - Testing - Jest, Vitest
+      - Architectural patterns - CQRS, Event Sourcing, DI
+      - Git paradigm - Trunk Based Development
+      - I've worked directly with the client and regularly made business presentations
 
 - company:
     name: GeekForce (software house)
@@ -34,6 +50,7 @@ experiences:
   positions:
   - designation: Backend developer
     start: 2023
+    end: 2024
     responsibilities:
     - Stack - TypeScript, Node.js, Mongoose, Azure Functions
     - Testing - Jest, Vitest
@@ -42,12 +59,12 @@ experiences:
     - I've worked directly with the client and regularly made business presentations
 
 - company:
-    name: NDA company
-    location: Kraków, Poland
-    overview: Hybrid work in Kraków, medical industry
+    name: Freelance
+    location: Remote
+    overview: Freelance project for a startup (part time)
   positions:
   - designation: Fullstack developer
-    start: 2020
+    start: 2021
     end: 2023
     responsibilities:
     - Stack - ASP.NET Core, Angular, MS SQL, Entity Framework

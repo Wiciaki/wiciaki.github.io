@@ -8,25 +8,25 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Programmer
+designation: Programmer & owner
 # your company information
 company:
-  name: GeekForce
-  url: "https://geekforce.io/"
+  name: Coursify
+  url: "https://coursify.pl/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I have been providing my services to the IT industry since 2014.<br>I specialize in crafting dynamic ASP.NET web applications that seamlessly merge innovation and functionality.<br>I mentor IT professionals in personal skills area and build SaaS solutions as a hobby.<br>Outside of work, I take part in academic activities.'
+summary: 'Since 2014, I’ve been dedicated to delivering impactful solutions in the IT industry. With a focus on developing cutting-edge ASP.NET web applications, I strive to blend innovation with seamless functionality to drive user-centric experiences.<br>Beyond development, I’m passionate about mentoring IT professionals, helping them enhance their personal and professional skills.<br>When I’m not coding or mentoring, you’ll find me engaging in academic pursuits, contributing to knowledge-sharing and community-building in the tech space.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "wiktor.mendalka@outlook.com"
+  url: "wiktor.mendalka@coursify.pl"
 
 - name: GitHub
   icon: "fab fa-github"

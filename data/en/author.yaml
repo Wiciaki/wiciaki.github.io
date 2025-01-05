@@ -6,13 +6,13 @@ greeting: "Greetings, I'm"
 image: "images/author/wiktor.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "wiktor.mendalka@outlook.com"
+  email: "wiktor.mendalka@coursify.pl"
   linkedin: wiktor-mendalka
   github: Wiciaki
 
 # some summary about what you do
 summary:
   - I am a backend-oriented programmer.
-  - I work in gaming and sales industries.
-  - I'm interested in neural networks and machine learning.
   - I'm an educator and enterpreneur.
+  - My company, Coursify focuses on upskilling and educating people in the IT industry.
+  - I'm interested in neural networks and machine learning.

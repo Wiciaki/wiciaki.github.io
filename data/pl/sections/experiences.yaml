@@ -11,11 +11,11 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: SparkTech (programowanie + mentoring)
+    name: Coursify (programming + mentoring)
     url: https://www.coursify.pl/
-    location: Zdalnie
+    location: Remote
     # company overview
-    overview: SparkTech to inicjatywa, która koncentruje się na poprawie standardów jakości kodu zarówno poprzez edukację, jak i dostarczanie konkretnych rozwiązań technicznych.
+    overview: Coursify is an initiative that focuses on improving code quality standards by both educating and providing concrete technical solutions.
   positions:
   - designation: Właściciel firmy
     start: 2023
@@ -23,8 +23,24 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Prowadzenie szkoleń dla specjalistów IT.
-    - Tworzenie własnej aplikacji SaaS.
+    - Software House Services.
+    - Recruitment Services.
+    - Conducting training courses for IT professionals.
+
+- company:
+    name: SavageTech
+    url: "https://savagetech.gg/"
+    location: Zdalnie
+    overview: Główny klient - branża iGaming.<br>Kontynuacja kontraktu z GeekForce.
+  positions:
+  - designation: Programista backendu
+    start: 2024
+    responsibilities:
+    - Stack - TypeScript, Node.js, Mongoose, Azure Functions
+    - Testy - Jest, Vitest
+    - Wzory architektoniczne - CQRS, Event Sourcing, DI
+    - Paradygmat pracy z Git - Trunk Based Development
+    - Pracowałem bezpośrednio z klientem i regularnie prowadziłem prezentacje biznesowe
 
 - company:
     name: GeekForce (software house)
@@ -34,6 +50,7 @@ experiences:
   positions:
   - designation: Programista backendu
     start: 2023
+    end: 2024
     responsibilities:
     - Stack - TypeScript, Node.js, Mongoose, Azure Functions
     - Testy - Jest, Vitest
@@ -42,12 +59,12 @@ experiences:
     - Pracowałem bezpośrednio z klientem i regularnie prowadziłem prezentacje biznesowe
 
 - company:
-    name: Firma NDA
-    location: Kraków
-    overview: Praca hybrydowa w Krakowie, branża medyczna
+    name: Freelancer
+    location: Zdalnie
+    overview: Projekt freelancerski dla startupu (niepełny etat)
   positions:
   - designation: Programista fullstack
-    start: 2020
+    start: 2021
     end: 2023
     responsibilities:
     - Stack - ASP.NET Core, Angular, MS SQL, Entity Framework, Redis

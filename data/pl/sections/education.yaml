@@ -12,12 +12,13 @@ section:
 degrees:
 - name: Magister inżynier informatyki
   icon: fa-university
-  timeframe: 2023 - W trakcie
+  timeframe: 2023 - 2024
   institution:
     name: Uniwersytet Komisji Edukacji Narodowej w Krakowie 
     url: https://www.uken.krakow.pl/
   publications:
   - title: Rozwój i badania systemu oprogramowania do rozpoznawania obrazów graficznych
+    url: "/files/WM-dyplom-inf2.pdf"
 
 - name: Inżynier informatyki - wydział EAIiIB
   icon: fa-graduation-cap

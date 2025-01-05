@@ -12,12 +12,13 @@ section:
 degrees:
 - name: Master of Science in Computer Science
   icon: fa-university
-  timeframe: 2023 - Present
+  timeframe: 2023 - 2024
   institution:
     name: Pedagogical University of Krakow
     url: https://www.uken.krakow.pl/en/
   publications:
   - title: Development and research of software system for graphic image recognition
+    url: "/files/WM-dyplom-inf2.pdf"
 
 - name: Bachelor of Science in Computer Science - EAIiIB department
   icon: fa-graduation-cap

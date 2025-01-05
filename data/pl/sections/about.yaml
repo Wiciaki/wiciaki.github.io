@@ -8,25 +8,25 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Programista
+designation: Programista i właściciel
 # your company information
 company:
-  name: GeekForce
-  url: "https://geekforce.io/"
+  name: Coursify
+  url: "https://coursify.pl/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Świadczę usługi dla branży IT od 2014 r.<br>Specjalizuję się w tworzeniu dynamicznych aplikacji internetowych ASP.NET, które płynnie łączą innowacyjność i funkcjonalność.<br>Mentoruję specjalistów IT w zakresie umiejętności osobistych i hobbystycznie buduję rozwiązania SaaS.<br>Poza pracą biorę udział w zajęciach akademickich.'
+summary: 'Od 2014 roku z zaangażowaniem dostarczam innowacyjne rozwiązania dla branży IT.<br>Koncentruję się na tworzeniu nowoczesnych aplikacji webowych w technologii ASP.NET, dążąc do połączenia innowacyjności z płynną funkcjonalnością, aby dostarczać użytkownikom wyjątkowe doświadczenia.<br>Poza programowaniem pasjonuję się mentoringiem specjalistów IT, pomagając im rozwijać umiejętności zarówno osobiste, jak i zawodowe.<br>Kiedy nie koduję ani nie mentoruję, angażuję się w działalność akademicką, wspierając dzielenie się wiedzą i budowanie społeczności w obszarze technologii.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "wiktor.mendalka@outlook.com"
+  url: "wiktor.mendalka@coursify.pl"
 
 - name: GitHub
   icon: "fab fa-github"
