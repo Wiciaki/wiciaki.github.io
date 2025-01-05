@@ -27,15 +27,15 @@ experiences:
     - Recruitment Services.
     - Conducting training courses for IT professionals.
 
-    - company:
-      name: SavageTech
-      url: "https://savagetech.gg/"
-      location: Remote
-      overview: Main client - iGaming industry.<br>Continuation of the contract with GeekForce.
-      positions:
-      - designation: Backend developer
-      start: 2024
-      responsibilities:
+- company:
+    name: SavageTech
+    url: "https://savagetech.gg/"
+    location: Remote
+    overview: Main client - iGaming industry.<br>Continuation of the contract with GeekForce.
+  positions:
+  - designation: Backend developer
+    start: 2024
+    responsibilities:
       - Stack - TypeScript, Node.js, Mongoose, Azure Functions
       - Testing - Jest, Vitest
       - Architectural patterns - CQRS, Event Sourcing, DI
