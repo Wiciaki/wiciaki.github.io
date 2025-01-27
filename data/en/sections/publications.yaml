@@ -22,6 +22,10 @@ buttons:
 # your publications
 publications:
 - title: Development and research of software system for graphic image recognition
+  publishedIn:
+    name: University of National Education Comision
+    date: 2024-09-26
+    url: https://www.uken.krakow.pl/en/
   paper:
     summary: This thesis focuses on the development of a system for recognizing graphic images using artificial neural networks, particularly the Hopfield and ART-1 networks. The aim was to design and implement these networks to improve pattern recognition accuracy. Both architectures were implemented and thoroughly tested, with analyses conducted on their ability to restore graphic patterns and their performance depending on the number of neurons and network capacity. The Hopfield network demonstrated a fast convergence time but limited accuracy with more complex datasets, while the ART-1 network, due to its high capacity, showed potential in creating numerous categories. However, the accuracy of ART-1 was low, indicating the need for further optimization. This study highlights the need for continued research and improvements in parameters such as vigilance to enhance the efficiency and applicability of these networks in graphic analysis tasks.
     url: "/files/WM-dyplom-inf2.pdf"

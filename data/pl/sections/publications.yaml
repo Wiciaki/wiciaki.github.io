@@ -22,6 +22,10 @@ buttons:
 # your publications
 publications:
 - title: Rozwój i badania systemu oprogramowania do rozpoznawania obrazów graficznych
+  publishedIn:
+    name: Uniwersytet Komisji Edukacji Narodowej w Krakowie
+    date: 2024-09-26
+    url: https://www.uken.krakow.pl/
   paper:
     summary: Niniejsza praca koncentruje się na rozwoju systemu do rozpoznawania obrazów graficznych z wykorzystaniem sztucznych sieci neuronowych, szczególnie sieci Hopfielda i ART-1. Celem było opracowanie i implementacja tych sieci w celu poprawy dokładności rozpoznawania wzorców. W ramach pracy zaimplementowano obie architektury oraz przeprowadzono ich szczegółowe testy, analizując ich zdolność do odtwarzania wzorców graficznych oraz wydajność w zależności od liczby neuronów i pojemności sieci. Sieć Hopfielda wykazała szybki czas konwergencji, ale ograniczoną dokładność przy bardziej złożonych zbiorach danych, podczas gdy sieć ART-1, dzięki dużej pojemności, wykazała potencjał w tworzeniu licznych kategorii. Mimo to, dokładność ART-1 była niska, co wskazuje na potrzebę dalszej optymalizacji. Praca podkreśla potrzebę dalszych badań i usprawnień w zakresie parametrów, takich jak czujność, aby zwiększyć efektywność i zastosowanie tych sieci w zadaniach analizy graficznej.
     url: "/files/WM-dyplom-inf2.pdf"
