@@ -61,21 +61,6 @@ experiences:
 - company:
     name: Freelancer
     location: Zdalnie
-    overview: Projekt freelancerski dla startupu (niepełny etat)
-  positions:
-  - designation: Programista fullstack
-    start: 2021
-    end: 2023
-    responsibilities:
-    - Stack - ASP.NET Core, Angular, MS SQL, Entity Framework, Redis
-    - Testy - NUnit, NSubstitute, Jasmine, Selenium
-    - Wzory architektoniczne - MVC, Messaging, Publish/Subscribe, DI
-    - Paradygmat pracy z Git - GitFlow
-    - Później pomagałem w przeprowadzaniu rozmów technicznych i nadzorowaniu nowych członków zespołu
-
-- company:
-    name: Freelancer
-    location: Zdalnie
     overview: Po tym, jak LeagueSharp przestał działać, dostałem kilka rekomendacji, aby dołączyć do podobnych projektów. To było bardzo przydatne, ponieważ w tamtym czasie spędzałem większość czasu próbując ukończyć 3 różne kierunki na 2 uniwersytetach, a praca zdalna w niepełnym wymiarze godzin była bardzo wygodna. Startupy technologiczne, z którymi pracowałem, operowały głównie w Chinach i Rosji.
   positions:
   - designation: Programista i konsultant ds. bezpieczeństwa

@@ -61,21 +61,6 @@ experiences:
 - company:
     name: Freelance
     location: Remote
-    overview: Freelance project for a startup (part time)
-  positions:
-  - designation: Fullstack developer
-    start: 2021
-    end: 2023
-    responsibilities:
-    - Stack - ASP.NET Core, Angular, MS SQL, Entity Framework
-    - Testing - NUnit, NSubstitute, Jasmine, Selenium
-    - Architectural patterns - MVC, Messaging, Publish/Subscribe, DI
-    - Git paradigm - GitFlow
-    - Later on helped with technical interviews & overseeing new team members
-
-- company:
-    name: Freelance
-    location: Remote
     overview: After LeagueSharp ceased operation, I got a handful of recommendations to join similiar projects.<br>It came really handy, as at that time I was spending most of my time trying to graduate from 3 different courses at 2 unis and a part-time remote programming job was very convenient.<br>The tech startups I worked with were mostly China and Russia based.
   positions:
   - designation: Developer & security consultant

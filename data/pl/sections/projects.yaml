@@ -39,7 +39,7 @@ projects:
   role: C#
   timeline: "2022"
   url: https://github.com/Wiciaki/Opti
-  summary: Projekt inżynierski mający na celu optymalizację operacji na schematach blokowych generowanych przez ASMCreator. Zrealizowany jako część mojej pracy dyplomowej z informatyki.
+  summary: Projekt inżynierski mający na celu optymalizację operacji na schematach blokowych generowanych przez ASMCreator.<br>Zrealizowany jako część mojej inżynierskiej pracy dyplomowej z informatyki.
   tags: ["academic"]
 
 - name: ConsoleRpg
@@ -49,9 +49,9 @@ projects:
   summary: Prosta gra konsolowa w stylu RPG, którą stworzyłem jeszcze na studiach. Posiada wiele możliwości wyboru postaci i pozwala na łatwą rozbudowę o nowe funkcje.
   tags: ["hobby"]
 
-- name: Portfolio które przeglądasz :)
+- name: Portfolio które przeglądasz 🙂
   url: https://github.com/Wiciaki/wiciaki.github.io
   role: Hugo
   timeline: "2023"
-  summary: Delikatne dla zasobów przeglądarki portfolio stworzone przy użyciu generatorów kodu statycznego. Zobacz podziękowania w stopce na dole strony.
+  summary: Delikatne dla zasobów Twojej przeglądarki portfolio stworzone przy użyciu generatora kodu statycznego Hugo. Zobacz podziękowania w stopce na dole strony.
   tags: ["professional"]
