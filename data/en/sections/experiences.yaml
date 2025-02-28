@@ -28,6 +28,17 @@ experiences:
     - Conducting training courses for IT professionals.
 
 - company:
+    name: University of Warsaw
+    location: Warsaw, Mazowieckie, Poland
+    overview: Part-time position at the University of Warsaw.
+  positions:
+  - designation: Research Assistant
+    start: Feb 2025
+    responsibilities:
+    - Conducting research related to CNNs.
+    - Lab instructor for Machine Learning courses.
+
+- company:
     name: SavageTech
     url: "https://savagetech.gg/"
     location: Remote

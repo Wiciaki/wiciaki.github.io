@@ -28,6 +28,17 @@ experiences:
     - Conducting training courses for IT professionals.
 
 - company:
+    name: Uniwersytet Warszawski
+    location: Warszawa, Mazowieckie, Polska
+    overview: Praca na część etatu na Uniwersytecie Warszawskim.
+  positions:
+  - designation: Asystent badawczy
+    start: Lut 2025
+    responsibilities:
+    - Prowadzenie badań związanych z CNN.
+    - Instruktor laboratoryjny na kursach z uczenia maszynowego.
+
+- company:
     name: SavageTech
     url: "https://savagetech.gg/"
     location: Zdalnie
