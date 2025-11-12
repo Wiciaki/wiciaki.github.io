@@ -51,6 +51,10 @@ outputs:
 # Enable global emoji support
 enableEmoji: true
 
+# Configure Dart Sass transpiler
+build:
+  transpiler: dartsass
+
 # Site parameters
 params:
   # Background image of the landing page
