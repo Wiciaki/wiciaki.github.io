@@ -5,8 +5,8 @@ description: Sample post with multiple images, embedded video ect.
 menu:
   sidebar:
     name: সমৃদ্ধ কন্টেন্ট
-    identifier: rich-content
-    parent: sub-category
+    identifier: rich-content-bn
+    parent: sub-category-bn
     weight: 10
 tags: ["মার্কডাউন","কন্টেন্ট সাজানো","বহুভাষিক"]
 categories: ["বেসিক"]
@@ -26,7 +26,7 @@ categories: ["বেসিক"]
 
 ### টুইটের নুমুনা
 
-{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
+{{< x user="SanDiegoZoo" id="1453110110599868418" >}}
 
 {{< vs >}}
 

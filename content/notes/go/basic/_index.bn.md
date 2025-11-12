@@ -4,7 +4,7 @@ weight: 10
 menu:
   notes:
     name: বেসিক
-    identifier: notes-go-basics
-    parent: notes-go
+    identifier: notes-go-basics-bn
+    parent: notes-go-bn
     weight: 10
 ---
