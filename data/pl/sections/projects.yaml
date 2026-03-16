@@ -21,7 +21,14 @@ buttons:
 
 # your projects
 projects:
-- name: SparkTech
+- name: WeGuide AI
+  role: TypeScript
+  timeline: "2026"
+  url: https://weguide.ai
+  summary: Aplikacja podróżnicza oparta na AI, dostarczająca spersonalizowane trasy zwiedzania z dala od tłumów, z integracją AR i marketplace'em lokalnych doświadczeń.<br>Zbudowane MVP od zera do pierwszego klienta B2B.
+  tags: ["professional"]
+
+- name: SparkTech Cheat API
   role: C#
   timeline: "2019 - 2021"
   url: https://github.com/Wiciaki/SparkTech
@@ -39,7 +46,7 @@ projects:
   role: C#
   timeline: "2022"
   url: https://github.com/Wiciaki/Opti
-  summary: Projekt inżynierski mający na celu optymalizację operacji na schematach blokowych generowanych przez ASMCreator.<br>Zrealizowany jako część mojej inżynierskiej pracy dyplomowej z informatyki.
+  summary: Projekt inżynierski mający na celu optymalizację operacji na schematach blokowych ASMCreator.<br>Zrealizowany jako część mojej inżynierskiej pracy dyplomowej z informatyki.
   tags: ["academic"]
 
 - name: ConsoleRpg

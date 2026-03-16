@@ -21,7 +21,14 @@ buttons:
 
 # your projects
 projects:
-- name: SparkTech
+- name: WeGuide AI
+  role: TypeScript
+  timeline: "2026"
+  url: https://weguide.ai
+  summary: AI-powered travel companion app delivering personalized, crowd-free tour itineraries with AR integration and a local experiences marketplace.<br>Built MVP from scratch to first B2B consumer.
+  tags: ["professional"]
+
+- name: SparkTech Cheat API
   role: C#
   timeline: "2019 - 2021"
   url: https://github.com/Wiciaki/SparkTech

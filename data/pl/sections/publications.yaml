@@ -27,7 +27,6 @@ publications:
     date: 2024-09-26
   paper:
     summary: Niniejsza praca koncentruje się na rozwoju systemu do rozpoznawania obrazów graficznych z wykorzystaniem sztucznych sieci neuronowych, szczególnie sieci Hopfielda i ART-1. Celem było opracowanie i implementacja tych sieci w celu poprawy dokładności rozpoznawania wzorców. W ramach pracy zaimplementowano obie architektury oraz przeprowadzono ich szczegółowe testy, analizując ich zdolność do odtwarzania wzorców graficznych oraz wydajność w zależności od liczby neuronów i pojemności sieci. Sieć Hopfielda wykazała szybki czas konwergencji, ale ograniczoną dokładność przy bardziej złożonych zbiorach danych, podczas gdy sieć ART-1, dzięki dużej pojemności, wykazała potencjał w tworzeniu licznych kategorii. Mimo to, dokładność ART-1 była niska, co wskazuje na potrzebę dalszej optymalizacji. Praca podkreśla potrzebę dalszych badań i usprawnień w zakresie parametrów, takich jak czujność, aby zwiększyć efektywność i zastosowanie tych sieci w zadaniach analizy graficznej.
-    url: "/files/WM-dyplom-inf2.pdf"
   categories: ["compsci"]
   tags: ["Sztuczne sieci neuronowe", "Rozpoznawanie wzorców", "Sieć Hopfielda", "Sieć ART-1", "Python"]
 
@@ -38,7 +37,6 @@ publications:
     url: https://ruj.uj.edu.pl/xmlui/handle/item/319836
   paper:
     summary: Rzeczywistość wirtualna (VR) stanowi niezwykle dynamicznie rozwijającą się dziedzinę technologii, która wywiera znaczący wpływ na naszą percepcję i sposób postrzegania świata. Identyfikacja obiektów ukrytych dla percepcji wzrokowej w VR pozostaje jednak zagadnieniem wymagającym głębszego zrozumienia i badań. Niniejsza praca ma na celu systematyzację wiedzy na temat procesów percepcji wzrokowej w rzeczywistości wirtualnej oraz identyfikacji obiektów, które pozostają ukryte lub są trudne do wykrycia w tym środowisku. Praca opiera się na przeprowadzonych badaniach eksperymentalnych, które mają na celu zidentyfikowanie czynników wpływających na naszą zdolność do wykrywania obiektów w wirtualnym środowisku oraz ocenę wpływu różnych technik wizualizacyjnych na percepcję ukrytych obiektów. Wyniki tych badań pokazują istotną rolę bodźców wzrokowych podczas korzystania z VR. Pomimo wskazania badanych na to, że zadanie badawcze miało zbalansowany stopień trudności, a bodziec dźwiękowy pozwalał na dokładną lokalizację przeszkód, nawigacja w przestrzeni wirtualnej była dla uczestników frustrująca i obciążająca.
-    url: "/files/WM-dyplom_kogni1.pdf"
   categories: ["cognisci"]
   tags: ["Rzeczywistość wirtualna", "Percepcja wzrokowa", "Badania eksperymentalne"]
 
@@ -49,7 +47,6 @@ publications:
     url: https://ruj.uj.edu.pl/xmlui/handle/item/297499
   paper:
     summary: Celem pracy była systematyzacja wiedzy o efekcie kraju pochodzenia produktu oraz określenie wpływu znaczenia kraju pochodzenia produktu na decyzje nabywcze wybranej grupy cudzoziemców mieszkających w Polsce. W rozdziale pierwszym pracy scharakteryzowano decyzje nabywcze konsumentów oraz uwarunkowania tych decyzji. W rozdziale drugim pracy opisano koncepcje dotyczące efektu kraju pochodzenia produktu jako czynnika oddziałującego na decyzje nabywcze. W rozdziale trzecim pracy przedstawiono wyniki oraz dokonano analizy przeprowadzonych badań dotyczących sposobu w jaki informacje o kraju pochodzenia produktu wpływają na decyzje nabywcze cudzoziemców mieszkających w Polsce. Metody zastosowana w pracy to metoda opisowa, a także metoda badań ankietowanych i metoda badań własnych. Informacje zawarte w poszczególnych rozdziałach pracy zostały oparte na polskojęzycznej i anglojęzycznej literaturze przedmiotu, a także na artykułach naukowych oraz materiałach dostępnych w Internecie.
-    url: "/files/WM-dyplom-zarz1.pdf"
   categories: ["management"]
   tags: ["Efekt kraju pochodzenia produktu", "Decyzje nabywcze", "Cudzoziemcy w Polsce"]
 
@@ -59,6 +56,5 @@ publications:
     date: 2022-05-18
   paper:
     summary: Celem tej pracy jest eksploracja możliwości minimalizacji wierzchołków operacyjnych algorytmicznych maszyn stanów. Autor przedstawia istniejące typy owych maszyn oraz różne metody ich optymalizacji – m.in. metodę klasyczną, a także korzyści płynące z dokonania optymalizacji. Zaproponowane jest rozwiązanie bazujące na połączeniu kilku prostych metod optymalizacji wierzchołków warunkowych. Na jego podstawie, przy pomocy języka C# opracowane jest oprogramowanie implementujące tę teorię. Oprogramowanie te jest przystosowane do operowania na plikach programu ASMCreator, który jest popularnym programem do tworzenia schematów blokowych i kompilowania ich do postaci tekstowej. Działanie programu jest przetestowane na licznych przypadkach autora i zdaje się być stabilne i niezawodne, nie ma jednak pewności, że program generuje dla każdego zadanego schematu blokowego maksymalnie optymalny wynik. W niektórych przykładach, możliwe jest dostrzeżenie niezrealizowanych minimalizacji ze względu na brak implementacji algorytmu minimalizacji wierzchołków warunkowych, którego idea nie została w pełni eksplorowana w niniejszej pracy
-    url: "/files/WM-dyplom-inf1.pdf"
   categories: ["compsci"]
   tags: ["C#", "Maszyny stanów", "Minimalizacja wierzchołków warunkowych"]

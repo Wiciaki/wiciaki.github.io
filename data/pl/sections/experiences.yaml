@@ -11,21 +11,18 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Coursify (programming + mentoring)
-    url: https://www.coursify.pl/
-    location: Remote
-    # company overview
-    overview: Coursify is an initiative that focuses on improving code quality standards by both educating and providing concrete technical solutions.
+    name: SoftwareCity
+    url: https://www.softwarecity.pl/
+    location: Zdalnie
+    overview: Własna działalność łącząca software house, agencję rekrutacyjną i indywidualny program mentoringowy dla specjalistów IT.
   positions:
-  - designation: Właściciel firmy
+  - designation: Założyciel
     start: 2023
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Software House Services.
-    - Recruitment Services.
-    - Conducting training courses for IT professionals.
+    - Zbudowałem i prowadzę indywidualny program mentoringowy (Coursify) dla mid+ developerów, skupiający się na kompetencjach miękkich, doradztwie kariery i narzędziach AI. Przeskalowany do 100+ klientów; cotygodniowe sesje 1:1 z asynchronicznym wsparciem między nimi.
+    - Realizacja usług software house'owych, w tym budżetowy rozwój MVP — np. WeGuide AI od zera do pierwszego klienta B2B.
+    - Projekty obejmują m.in. minigry kasynowe, platformy grywalizacyjne i moduły aplikacji AI coach.
+    - Usługi rekrutacyjne dla specjalistów IT.
 
 - company:
     name: Uniwersytet Warszawski
@@ -35,6 +32,7 @@ experiences:
   positions:
   - designation: Asystent badawczy
     start: 2025
+    end: 2025
     responsibilities:
     - Prowadzenie badań związanych z CNN.
     - Instruktor laboratoryjny na kursach z uczenia maszynowego.
@@ -47,6 +45,7 @@ experiences:
   positions:
   - designation: Programista backendu
     start: 2024
+    end: 2025
     responsibilities:
     - Stack - TypeScript, Node.js, Mongoose, Azure Functions
     - Testy - Jest, Vitest

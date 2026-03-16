@@ -8,18 +8,18 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Programista i właściciel
+designation: Product Engineer
 # your company information
 company:
-  name: Coursify
-  url: "https://coursify.pl/"
+  name: SoftwareCity
+  url: "https://softwarecity.pl/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Od 2014 roku z zaangażowaniem dostarczam innowacyjne rozwiązania dla branży IT.<br>Koncentruję się na tworzeniu nowoczesnych aplikacji webowych w technologii ASP.NET, dążąc do połączenia innowacyjności z płynną funkcjonalnością, aby dostarczać użytkownikom wyjątkowe doświadczenia.<br>Poza programowaniem pasjonuję się mentoringiem specjalistów IT, pomagając im rozwijać umiejętności zarówno osobiste, jak i zawodowe.'
+summary: 'Od 2014 roku buduję oprogramowanie obejmując pełen zakres inżynierii produktowej - systemy backendowe, projekty dla klientów i własne przedsięwzięcia.<br>Poza programowaniem mentoringuję mid+ developerów i aktywnie działam w warszawskiej społeczności AI.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

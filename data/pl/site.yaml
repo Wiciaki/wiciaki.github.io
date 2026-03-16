@@ -1,5 +1,5 @@
 # Copyright Notice
-copyright: © 2025 Wszystkie prawa zastrzeżone
+copyright: © 2026 Wszystkie prawa zastrzeżone
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
 disclaimer: "This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses.
@@ -12,12 +12,17 @@ description: Portfolio i strona osobista Wiktora Mendalki
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
+- name: SoftwareCity
+  url: https://softwarecity.pl/
+  hideFromNavbar: false
+  showOnFooter: true
+- name: Hireify
+  url: https://hireify.pl/
+  hideFromNavbar: false
+  showOnFooter: true
 - name: Coursify
   url: https://coursify.pl/
-  # specify whether to hide the menu item from top navbar or not.
   hideFromNavbar: false
-  # specify whether to show the menu item in footer or not.
-  # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
   showOnFooter: true
 
 # Specify OpenGraph Headers

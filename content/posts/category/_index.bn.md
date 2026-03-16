@@ -3,6 +3,6 @@ title: Top Category Sample
 menu:
   sidebar:
     name: বিভাগ
-    identifier: category-bn
+    identifier: category
     weight: 20
 ---

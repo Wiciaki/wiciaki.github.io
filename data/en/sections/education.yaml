@@ -18,7 +18,6 @@ degrees:
     url: https://www.uken.krakow.pl/en/
   publications:
   - title: Development and research of software system for graphic image recognition
-    url: "/files/WM-dyplom-inf2.pdf"
 
 - name: Bachelor of Science in Computer Science - EAIiIB department
   icon: fa-graduation-cap
@@ -28,7 +27,6 @@ degrees:
     url: "https://www.agh.edu.pl/en/"
   publications:
   - title: Optimization of the flowcharts representing the algorithmic state machines.
-    url: "/files/WM-dyplom-inf1.pdf"
   extracurricularActivities:
   - Leader of the AGH Mobile science club
   - English C1 language certificate
@@ -41,7 +39,6 @@ degrees:
     url: "https://en.uj.edu.pl/"
   publications:
   - title: Identification of hidden objects for visual perception in virtual reality
-    url: "/files/WM-dyplom_kogni1.pdf"
 
 - name: Bachelor of Management
   icon: fa-graduation-cap
@@ -51,6 +48,5 @@ degrees:
     url: "https://en.uj.edu.pl/"
   publications:
   - title: Influence of information about the product's contry of origin on purchasing decisions of foreigners in Poland.
-    url: "/files/WM-dyplom-zarz1.pdf"
   extracurricularActivities:
   - Business English C2 certificate

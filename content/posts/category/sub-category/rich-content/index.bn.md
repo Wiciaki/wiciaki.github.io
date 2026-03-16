@@ -1,12 +1,12 @@
 ---
 title: "সমৃদ্ধ কন্টেন্ট"
 date: 2020-06-08T08:06:25+06:00
-description: Sample post with multiple images, embedded video ect.
+description: Sample post with multiple images, embedded video etc.
 menu:
   sidebar:
     name: সমৃদ্ধ কন্টেন্ট
-    identifier: rich-content-bn
-    parent: sub-category-bn
+    identifier: rich-content
+    parent: sub-category
     weight: 10
 tags: ["মার্কডাউন","কন্টেন্ট সাজানো","বহুভাষিক"]
 categories: ["বেসিক"]

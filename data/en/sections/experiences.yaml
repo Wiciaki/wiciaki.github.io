@@ -11,21 +11,19 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Coursify (programming + mentoring)
-    url: https://www.coursify.pl/
+    name: SoftwareCity
+    url: https://www.softwarecity.pl/
     location: Remote
-    # company overview
-    overview: Coursify is an initiative that focuses on improving code quality standards by both educating and providing concrete technical solutions.
+    overview: Personal venture combining a software house, recruitment agency, and individual mentoring program for IT professionals.
   positions:
-  - designation: Business owner
+  - designation: Founder
     start: 2023
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Software House Services.
-    - Recruitment Services.
-    - Conducting training courses for IT professionals.
+    - Built and run an individual mentoring program (Coursify) for mid+ developers, focusing on soft skills, career advisory, and AI tools usage. Scaled to 100+ customers; weekly 1:1s with async support.
+    - Delivered software house services including budget-friendly MVP development - e.g. WeGuide AI from scratch to first B2B consumer.
+    - Projects include casino minigames, gamification platforms, and AI coach app modules.
+    - Recruitment services for IT professionals.
+
 
 - company:
     name: University of Warsaw
@@ -35,6 +33,7 @@ experiences:
   positions:
   - designation: Research Assistant
     start: 2025
+    end: 2025
     responsibilities:
     - Conducting research related to CNNs.
     - Lab instructor for Machine Learning courses.
@@ -47,6 +46,7 @@ experiences:
   positions:
   - designation: Backend developer
     start: 2024
+    end: 2025
     responsibilities:
       - Stack - TypeScript, Node.js, Mongoose, Azure Functions
       - Testing - Jest, Vitest
