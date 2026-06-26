@@ -19,9 +19,9 @@ jobs:
         run: |
           mise run install # install theme dependency
 
-      - name: Update theme to latest commit
+      - name: Update theme to latest release
         run: |
-          mise run update-to-main
+          mise run update
 
       - name: Build
         run: |

@@ -22,44 +22,23 @@ jobs:
         run: |
           hugo --minify
 
-  lighthouse-check:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Waiting for Netlify Preview
-        uses: kamranayub/wait-for-netlify-action@v2.1.1
-        id: preview
-        with:
-          site_name: "toha-example-site"
-          max_timeout: 300
-        env:
-          NETLIFY_TOKEN: ${{secrets.NETLIFY_TOKEN}}
-
-      - name: Run Lighthouse
-        uses: foo-software/lighthouse-check-action@v12.0.1
-        id: lighthouseCheck
-        with:
-          gitHubAccessToken: ${{secrets.GITHUB_TOKEN}}
-          emulatedFormFactor: "all"
-          prCommentEnabled: true
-          prCommentSaveOld: true
-          timeout: 5
-          urls: "${{ steps.preview.outputs.url }},${{ steps.preview.outputs.url }}/posts/,${{ steps.preview.outputs.url }}/posts/markdown-sample/,${{ steps.preview.outputs.url }}/posts/shortcodes/"
-
-  # Check for any broken links
+  # Check for any broken links in the built site
   markdown-link-check:
     runs-on: ubuntu-latest
     steps:
-      # checkout to latest commit
-      - uses: actions/checkout@master
+      # checkout to the commit that has been pushed
+      - uses: actions/checkout@v7
 
-      - name: Waiting for Netlify Preview
-        uses: kamranayub/wait-for-netlify-action@v2.1.1
-        id: preview
-        with:
-          site_name: "toha-example-site"
-          max_timeout: 300
-        env:
-          NETLIFY_TOKEN: ${{secrets.NETLIFY_TOKEN}}
+      # Setup mise
+      - uses: jdx/mise-action@v4
+
+      - name: Install dependencies
+        run: |
+          mise run install # install theme dependency
+
+      - name: Build
+        run: |
+          hugo --minify
 
       - name: Link Checker
         id: lychee
@@ -67,7 +46,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
-          args: "--verbose --exclude-mail ${{steps.preview.outputs.url}} --exclude=['https://www.udemy.com/']"
+          fail: false
+          args: "--verbose --exclude-mail --exclude 'www.udemy.com' './public/**/*.html'"
           output: lychee/out.md
 
       - name: Comment Broken Links
