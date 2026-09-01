@@ -45,40 +45,30 @@ resourceLinks:
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
-# You can also show a circular bar indicating the level of expertise on a certain skill
+# Soft skills render as icon tiles (see layouts/partials/misc/badge.html):
+#   icon  - any Font Awesome 6 Free (solid) class, e.g. "fa-solid fa-fire"
+#   color - optional per tile override; left out so the tiles stay on the site accent
 badges:
 - type: soft-skill-indicator
   name: Pasja
-  percentage: 95
-  color: "#A020F0"
+  icon: "fa-solid fa-fire"
 
 - type: soft-skill-indicator
-  name: Odpowie-dzialność
-  percentage: 90
-  color: blue
+  name: Odpowiedzialność
+  icon: "fa-solid fa-shield-halved"
 
 - type: soft-skill-indicator
   name: Praca w zespole
-  percentage: 90
-  color: yellow
+  icon: "fa-solid fa-users"
 
 - type: soft-skill-indicator
   name: Kreatywność
-  percentage: 85
-  color: green
+  icon: "fa-solid fa-lightbulb"
 
 - type: soft-skill-indicator
   name: Elastyczność
-  percentage: 80
-  color: "#00FFFF"
+  icon: "fa-solid fa-shuffle"
 
 - type: soft-skill-indicator
   name: Przywództwo
-  percentage: 80
-  color: orange
-
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+  icon: "fa-solid fa-compass"

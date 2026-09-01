@@ -1,0 +1,337 @@
+/* Overrides toha/assets/styles/override.scss. Imported at the end of the bundle,
+   so $themes, get-light-color() and the theme mixins are available here. */
+
+/* ===========================================================================
+   Soft skill tiles in the About section
+   They replace the default percentage rings. The chrome deliberately copies the
+   skills section card: 6px radius, hairline border, a light head strip and the
+   cyan rule under it. Markup lives in layouts/partials/misc/badge.html
+   =========================================================================== */
+
+$trait-rule-color: rgba(get-light-color('accent-color'), 0.4);
+$trait-rule-color-dark: rgba(get-dark-color('accent-color'), 0.55);
+
+.about-section {
+  /* the badge column: direct child of the section row, wrapping a nested .row.
+     Scoped with > so it cannot also match the per-badge wrappers inside that row. */
+  > .row > div:has(.trait-tile) {
+    display: flex;
+    align-items: center;
+
+    > .row {
+      flex: 1 1 auto;
+    }
+
+    /* The about section carries p-lg-5, the sections below do not, so by default
+       the tiles stop 32px short of where the skills cards end. Reclaim that on
+       wide screens: widen the column to the right, pull the overflow back with a
+       negative margin, and hand the same 2rem to padding so the block only moves
+       right instead of growing. The column width is set, so a negative margin
+       alone would not extend it; the !important is needed to beat Bootstrap's
+       .ps-md-4 utility, which carries !important itself. */
+    @include media('>=large') {
+      width: calc(50% + 2rem);
+      margin-right: -2rem;
+      padding-left: 3.5rem !important;
+    }
+  }
+
+  /* Between 576px and 767px the bootstrap container is stuck at 540px, so the
+     two column layout leaves roughly 117px per tile and the long names break
+     mid word. Stack the columns there, exactly as they already stack below
+     576px, which gives the tiles the full width back. */
+  @include media('<medium') {
+    > .row > div {
+      width: 100%;
+    }
+
+    > .row > div:has(.trait-tile) {
+      margin-top: 1.5rem;
+    }
+  }
+
+  .trait-tile {
+    --trait-color: #{get-light-color('accent-color')};
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.176);
+    border-radius: 6px;
+    background: get-light-color('bg-card');
+    transition:
+      transform $transition-duration $transition-type,
+      box-shadow $transition-duration $transition-type,
+      border-color $transition-duration $transition-type;
+
+    &:hover,
+    &:focus-within {
+      transform: translateY(-3px);
+      box-shadow: $box-shadow;
+      border-color: rgba(get-light-color('accent-color'), 0.35);
+
+      .trait-tile-head {
+        background: rgba(get-light-color('accent-color'), 0.06);
+
+        /* the bright rule sweeps across, echoing the timeline lines */
+        &::before {
+          transform: scaleX(1);
+        }
+      }
+
+      .trait-tile-icon > * {
+        transform: scale(1.14);
+      }
+    }
+  }
+
+  .trait-tile-head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 1.35rem 1.15rem;
+    background: get-light-color('bg-primary');
+    transition: background $transition-duration $transition-type;
+
+    &::after,
+    &::before {
+      content: '';
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: 1px;
+      transform-origin: left center;
+    }
+
+    &::after {
+      background: $trait-rule-color;
+    }
+
+    &::before {
+      z-index: 1;
+      background: get-light-color('accent-color');
+      transform: scaleX(0);
+      transition: transform 0.45s cubic-bezier(0.2, 0.7, 0.3, 1);
+    }
+  }
+
+  .trait-tile-icon {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    line-height: 1;
+    color: var(--trait-color);
+
+    /* Font Awesome swaps the <i> for an <svg>, so animate whichever child is there */
+    > * {
+      transition: transform $transition-duration cubic-bezier(0.2, 0.7, 0.3, 1);
+    }
+  }
+
+  .trait-tile-name {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    padding: 0.95rem 1.15rem 1.05rem;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: get-light-color('heading-color');
+    /* long words: "Odpowiedzialność", "リーダーシップ".
+       min-width plus overflow-wrap: anywhere is what actually stops a clip: the
+       tile has overflow hidden, and break-word alone still reports the whole word
+       as min-content, so a narrow tile would cut the name off instead of wrapping.
+       The breakpoints below shrink the type so this stays a safety net. */
+    min-width: 0;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+  }
+
+  @include media('<=medium') {
+    .trait-tile-head {
+      padding: 0.85rem 0.8rem;
+    }
+    .trait-tile-icon {
+      font-size: 1.5rem;
+    }
+    .trait-tile-name {
+      padding: 0.7rem 0.8rem 0.8rem;
+      font-size: 0.9375rem;
+    }
+  }
+
+  @include media('<=tiny') {
+    .trait-tile-head {
+      padding: 0.6rem 0.65rem;
+    }
+    .trait-tile-icon {
+      font-size: 1.2rem;
+    }
+    .trait-tile-name {
+      padding: 0.55rem 0.65rem 0.6rem;
+      font-size: 0.8125rem;
+    }
+  }
+}
+
+html[data-theme='dark'] {
+  .about-section {
+    .trait-tile {
+      --trait-color: #{get-dark-color('hover-over-accent-color')};
+
+      border-color: rgba(203, 213, 225, 0.14);
+      background: get-dark-color('bg-card');
+
+      &:hover,
+      &:focus-within {
+        border-color: rgba(get-dark-color('accent-color'), 0.5);
+      }
+    }
+
+    /* like the skills cards in dark mode, only the cyan rule separates head from body */
+    .trait-tile-head {
+      background: get-dark-color('bg-card');
+
+      &::after {
+        background: $trait-rule-color-dark;
+      }
+
+      &::before {
+        background: get-dark-color('hover-over-accent-color');
+      }
+    }
+
+    .trait-tile:hover .trait-tile-head,
+    .trait-tile:focus-within .trait-tile-head {
+      background: rgba(get-dark-color('accent-color'), 0.12);
+    }
+
+    .trait-tile-name {
+      color: get-dark-color('heading-color');
+    }
+  }
+}
+
+/* ===========================================================================
+   Reveal on scroll
+   Three beats per tile, 80 ms apart: the card rises, the icon pops, then the
+   cyan rule draws itself from the left.
+   The .has-reveal class is set by the script in layouts/partials/header.html,
+   so without JS the elements simply stay visible.
+   =========================================================================== */
+
+@keyframes trait-card-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes trait-icon-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.72);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.09);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes trait-rule-in {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+html.has-reveal {
+  [data-reveal] {
+    opacity: 0;
+  }
+
+  [data-reveal] .trait-tile-icon {
+    opacity: 0;
+  }
+
+  [data-reveal] .trait-tile-head::after {
+    transform: scaleX(0);
+  }
+
+  [data-reveal].is-revealed {
+    animation: trait-card-in 0.5s cubic-bezier(0.2, 0.7, 0.3, 1) both;
+
+    .trait-tile-icon {
+      animation: trait-icon-in 0.45s cubic-bezier(0.34, 1.3, 0.5, 1) both;
+    }
+
+    .trait-tile-head::after {
+      animation: trait-rule-in 0.5s cubic-bezier(0.2, 0.7, 0.3, 1) both;
+    }
+  }
+
+  /* cascade: each following tile starts 80 ms later */
+  @for $i from 1 through 8 {
+    $step: ($i - 1) * 0.08;
+
+    [data-reveal]:nth-child(#{$i}).is-revealed {
+      animation-delay: #{$step}s;
+
+      .trait-tile-icon {
+        animation-delay: #{$step + 0.16}s;
+      }
+
+      .trait-tile-head::after {
+        animation-delay: #{$step + 0.26}s;
+      }
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.has-reveal {
+    [data-reveal],
+    [data-reveal] .trait-tile-icon {
+      opacity: 1;
+    }
+
+    [data-reveal] .trait-tile-head::after {
+      transform: none;
+    }
+
+    [data-reveal].is-revealed,
+    [data-reveal].is-revealed .trait-tile-icon,
+    [data-reveal].is-revealed .trait-tile-head::after {
+      animation: none;
+    }
+  }
+
+  .about-section {
+    .trait-tile,
+    .trait-tile-head,
+    .trait-tile-head::before,
+    .trait-tile-icon > * {
+      transition: none;
+    }
+
+    .trait-tile:hover {
+      transform: none;
+    }
+
+    .trait-tile:hover .trait-tile-icon > * {
+      transform: none;
+    }
+  }
+}
