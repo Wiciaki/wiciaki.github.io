@@ -56,7 +56,7 @@ projects:
   summary: Prosta gra konsolowa w stylu RPG, którą stworzyłem jeszcze na studiach. Posiada wiele możliwości wyboru postaci i pozwala na łatwą rozbudowę o nowe funkcje.
   tags: ["hobby"]
 
-- name: Portfolio które przeglądasz 🙂
+- name: wiciaki.github.io - ta strona
   url: https://github.com/Wiciaki/wiciaki.github.io
   role: Hugo
   timeline: "2023"

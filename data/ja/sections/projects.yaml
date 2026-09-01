@@ -56,7 +56,7 @@ projects:
   summary: 大学時代に作ったRPG風コンソールゲーム。<br>複数のキャラクターから選択でき、新機能も簡単に追加できる設計です。
   tags: ["hobby"]
 
-- name: このウェブサイト 🙂
+- name: wiciaki.github.io - このサイト
   url: https://github.com/Wiciaki/wiciaki.github.io
   role: Hugo
   timeline: "2023"

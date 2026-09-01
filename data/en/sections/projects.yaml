@@ -56,7 +56,7 @@ projects:
   summary: A simple RPG-style console game I made back in the uni.<br>Has multiple character choices and allows for easy upgradeability with new features.
   tags: ["hobby"]
 
-- name: This website 🙂
+- name: wiciaki.github.io - this website
   url: https://github.com/Wiciaki/wiciaki.github.io
   role: Hugo
   timeline: "2023"
