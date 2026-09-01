@@ -1,0 +1,33 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<!--================= canonical URL =========================-->
+{{/* Use relcanonical from front matter if set, otherwise use the page's permalink */}}
+{{ with .Params.relcanonical }}
+<link rel="canonical" href="{{ . | relLangURL }}" />
+{{ else }}
+<link rel="canonical" href="{{ .Permalink }}" />
+{{ end }}
+
+{{ partial "helpers/style-bundle.html" . }}
+
+<!--================= fab-icon =========================-->
+{{/* add favicon only if the site author has provided the the favicon */}}
+{{ if site.Params.logo.favicon }}
+  {{ $favicon := resources.Get site.Params.logo.favicon }}
+
+  {{/* resize the favicon only for formats Hugo's image processing supports; svg and ico must be served as-is */}}
+  {{ $processable := slice "png" "jpg" "jpeg" "gif" "tiff" "bmp" "webp" }}
+  {{ if and $favicon (in $processable $favicon.MediaType.SubType) }}
+    {{ $favicon = $favicon.Resize "42x" }}
+  {{ end }}
+
+  {{ with $favicon }}
+    <link rel="icon" type="{{ .MediaType.Type }}" href="{{ .RelPermalink }}" />
+  {{ end }}
+{{end}}
+
+{{ with .OutputFormats.Get "rss" -}}
+  {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+{{ end }}
