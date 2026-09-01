@@ -1,0 +1,60 @@
+# section information
+section:
+  name: スキル
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: .NET & C#
+  logo: /images/sections/skills/csharp.png
+  summary: "4年の経験。標準ライブラリと.NETエコシステムの中核を十分に理解しています。信頼性が高く効率的で、スケーラブルなアプリケーションの設計・構築・保守を行っています。このプラットフォームの変更や新機能を常に追いかけています。"
+
+- name: ASP.NET (Core, MVC)
+  logo: /images/sections/skills/aspnet.png
+  summary: 2年の経験。Entity FrameworkとAngularを使い、医療系スタートアップのバックエンドアプリ開発を支援しました。新しいAPIの設計に加えて、データベースクエリやアーキテクチャの最適化もでき、Redisの基礎も知っています。
+
+- name: Node.js & TypeScript
+  logo: /images/sections/skills/nodejs.png
+  summary: "2年の経験。Node.jsでいくつかのバックエンドアプリケーションを構築し、主要なライブラリやフレームワークに精通しています。プロトタイピングに最適なツールで、プロジェクトが許す限り喜んで使っています。"
+
+- name: Angular
+  logo: /images/sections/skills/angular.png
+  summary: "2年の経験。必要とされるときはいつでもフロントエンドチームをサポートしてきました。主にAngularのコードを読み、更新されたバックエンドレスポンスへの対応を追加できます。"
+
+- name: SQL (Microsoft, postgres)
+  logo: /images/sections/skills/sql.png
+  summary: "実際のシナリオでSQLデータベースを扱ってきた2年の経験。すべてのバックエンド開発者に必須の基礎を押さえています。"
+
+- name: MongoDB
+  logo: /images/sections/skills/mongodb.png
+  summary: "2年の経験。第一に選ぶデータベースではありませんが、最も人気のあるORMであるmongooseには精通しています。"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: 4年以上使い続けており、もう手放せません。Dockerは私のワークフローにシームレスに溶け込み、バグの再現性、コードの分離、セキュリティ脆弱性など多くの問題を解決してくれます。
+
+- name: バージョン管理 (Git)
+  logo: /images/sections/skills/git.png
+  summary: 商用環境で4年以上Gitを使用しています。以前のプロジェクトではgit-flowを使いましたが、可能な限りトランクベース開発で運用するのが好みです。
+
+- name: IDE (Visual Studio)
+  logo: /images/sections/skills/visualstudio.png
+  summary: ReSharperの有無にかかわらず4年以上使用しています。Visual Studio Codeや、RiderなどのスタンドアロンのJetBrains製品にも慣れています。
+
+- name: Rust
+  logo: /images/sections/skills/rust.png
+  summary: "商用経験1年。Rustは言語の傑作で、出会って以来、私の個人プロジェクトはすべてRustで動いています。将来また仕事で使える機会があることを願っています。"
+
+- name: C++ & DirectX
+  logo: /images/sections/skills/cpp.png
+  summary: "非商用経験1年。DirectXでUIをゼロから作成し、他のアプリケーションやゲームに注入する楽しいサイドプロジェクトをいくつか手がけました。"
+
+- name: Unity
+  logo: /images/sections/skills/unity.png
+  summary: "学生時代に何度も使ったゲームエンジンです(プロジェクト参照)。愛憎相半ばする関係でしたが、それでもこのC#関連の重要なツールを習得できたと感じています。"

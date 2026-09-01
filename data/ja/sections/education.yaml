@@ -1,0 +1,52 @@
+# section information
+section:
+  name: 学歴
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: 情報科学修士
+  icon: fa-university
+  timeframe: 2023 - 2024
+  institution:
+    name: 国民教育委員会大学(クラクフ)
+    url: https://www.uken.krakow.pl/en/
+  publications:
+  - title: グラフィック画像認識のためのソフトウェアシステムの開発と研究
+
+- name: 情報科学学士 - EAIiIB学部
+  icon: fa-graduation-cap
+  timeframe: 2017 - 2022
+  institution:
+    name: AGH科学技術大学
+    url: "https://www.agh.edu.pl/en/"
+  publications:
+  - title: アルゴリズミック・ステートマシンを表すフローチャートの最適化
+  extracurricularActivities:
+  - 学生研究会「AGH Mobile」のリーダー
+  - 英語C1資格
+
+- name: 認知科学学士
+  icon: fa-graduation-cap
+  timeframe: 2019 - 2023
+  institution:
+    name: ヤギェウォ大学
+    url: "https://en.uj.edu.pl/"
+  publications:
+  - title: 仮想現実における視覚知覚のための隠れた物体の識別
+
+- name: 経営学学士
+  icon: fa-graduation-cap
+  timeframe: 2019 - 2022
+  institution:
+    name: ヤギェウォ大学
+    url: "https://en.uj.edu.pl/"
+  publications:
+  - title: 製品の原産国情報が在ポーランド外国人の購買意思決定に与える影響
+  extracurricularActivities:
+  - ビジネス英語C2資格

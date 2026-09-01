@@ -11,19 +11,31 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: SoftwareCity
+    name: WeGuide AI
+    url: https://www.weguide.ai/
+    location: Remote
+    overview: Technical co-founder of an AI travel product for Japan. Responsible for architecture, delivery and infrastructure - while the company runs consumer, white-label and DMO tracks in parallel.
+  positions:
+  - designation: CTO
+    start: 2025
+    responsibilities:
+    - Built the product from zero to MVP - architecture, backend, and infrastructure.
+    - Mobile app - React Native (Expo), one codebase for iOS, Android and web.
+    - Backend - TypeScript on Azure Functions, CI/CD in Azure DevOps on cloud-hosted agents.
+    - AI - Custom crowd prediction from pedestrian-flow models, movement signals from our own users, and external feeds.
+
+- company:
+    name: SparkTech Wiktor Mendalka
     url: https://www.softwarecity.pl/
     location: Remote
-    overview: Personal venture combining a software house, recruitment agency, and individual mentoring program for IT professionals.
+    overview: Sole proprietorship operating three brands; a software house, a 1:1 mentoring program for developers, and an IT recruitment service.
   positions:
   - designation: Founder
     start: 2023
     responsibilities:
-    - Built and run an individual mentoring program (Coursify) for mid+ developers, focusing on soft skills, career advisory, and AI tools usage. Scaled to 100+ customers; weekly 1:1s with async support.
-    - Delivered software house services including budget-friendly MVP development - e.g. WeGuide AI from scratch to first B2B consumer.
-    - Projects include casino minigames, gamification platforms, and AI coach app modules.
-    - Recruitment services for IT professionals.
-
+    - softwarecity.pl - Delivered projects for 10+ B2B clients across casino minigames, gamification platforms, and AI coaching app modules.
+    - coursify.pl - Grew a 1:1 mentoring program to 100+ paying clients (mid+ developers), covering career strategy, soft skills, and applied AI tooling.
+    - hireify.pl - Provided recruitment services for IT professionals.
 
 - company:
     name: University of Warsaw

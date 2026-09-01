@@ -1,0 +1,64 @@
+# section information
+section:
+  name: プロジェクト
+  id: projects
+  enable: true
+  weight: 7
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: すべて
+  filter: "all"
+- name: プロフェッショナル
+  filter: "professional"
+- name: アカデミック
+  filter: "academic"
+- name: 趣味
+  filter: "hobby"
+
+# your projects
+projects:
+- name: WeGuide AI
+  role: TypeScript
+  timeline: "2026"
+  url: https://weguide.ai
+  summary: AIを活用した旅行コンパニオンアプリ。混雑を避けた観光ルートやAR連携を提供。<br>MVPをゼロから初のB2B顧客まで構築。
+  tags: ["professional"]
+
+- name: SparkTech Cheat API
+  role: C#
+  timeline: "2019 - 2021"
+  url: https://github.com/Wiciaki/SparkTech
+  summary: 汎用的なゲームチートフレームワークを作る試み。<br>新しいチートプラットフォームの開発を高速化するラッパーAPI群です。
+  tags: ["professional"]
+
+- name: SoundResearchVRGame
+  role: Unity - C#
+  timeline: "2023"
+  url: https://github.com/Wiciaki/SoundResearchVRGame
+  summary: VR環境における音に関する知覚を研究するためのOculus Quest用ゲーム。<br>課題遂行中の参加者データを記録します。
+  tags: ["academic"]
+
+- name: Opti
+  role: C#
+  timeline: "2022"
+  url: https://github.com/Wiciaki/Opti
+  summary: ASMCreatorで生成されたブロック図に対する操作を最適化するエンジニアリングプロジェクト。<br>情報科学の学士論文の一環として完成させました。
+  tags: ["academic"]
+
+- name: ConsoleRpg
+  url: https://github.com/Wiciaki/ConsoleRpg
+  role: C#
+  timeline: "2022"
+  summary: 大学時代に作ったRPG風コンソールゲーム。<br>複数のキャラクターから選択でき、新機能も簡単に追加できる設計です。
+  tags: ["hobby"]
+
+- name: このウェブサイト 🙂
+  url: https://github.com/Wiciaki/wiciaki.github.io
+  role: Hugo
+  timeline: "2023"
+  summary: Hugo製の、ブラウザに優しいポートフォリオ。<br>Tohaテーマの改変版を使用しています。<br>クレジットはフッターにあります。
+  tags: ["professional"]

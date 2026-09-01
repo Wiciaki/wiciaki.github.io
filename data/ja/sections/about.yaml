@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: 自己紹介
   id: about
   enable: true
   weight: 1
@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: CTO & Co-founder
+designation: CTO・共同創業者
 # your company information
 company:
   name: WeGuide
@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Building software since 2014: backend systems for iGaming, a software house with 10+ B2B clients, and now WeGuide, an AI travel companion for Japan that I took from zero to MVP.<br>Beyond code, I run a mentoring program that has guided 100+ developers and have been pursuing a PhD in ML.'
+summary: '2014年からソフトウェアを作り続けています。iGaming業界向けのバックエンドシステム、10社以上のB2Bクライアントを抱えるソフトウェアハウス、そして現在は日本向けAI旅行コンパニオンのWeGuideをゼロからMVPまで育て上げました。<br>開発以外では、これまでに100人以上の開発者を指導してきたメンタリングプログラムを運営し、機械学習の博士課程にも取り組んでいます。'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -40,7 +40,7 @@ socialLinks:
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "Download CV (.pdf)"
+- title: "履歴書をダウンロード (.pdf)"
   url: "files/Wiktor Mendalka.pdf"
 
 # Show your badges
@@ -48,32 +48,32 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: soft-skill-indicator
-  name: Passion
+  name: 情熱
   percentage: 95
   color: "#A020F0"
 
 - type: soft-skill-indicator
-  name: Accountability
+  name: 責任感
   percentage: 90
   color: blue
 
 - type: soft-skill-indicator
-  name: Team player
+  name: チームワーク
   percentage: 90
   color: yellow
 
 - type: soft-skill-indicator
-  name: Creativity
+  name: 創造性
   percentage: 85
   color: green
 
 - type: soft-skill-indicator
-  name: Flexibility
+  name: 柔軟性
   percentage: 80
   color: "#00FFFF"
 
 - type: soft-skill-indicator
-  name: Leadership
+  name: リーダーシップ
   percentage: 80
   color: orange
 

@@ -11,18 +11,31 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: SoftwareCity
+    name: WeGuide AI
+    url: https://www.weguide.ai/
+    location: Zdalnie
+    overview: Techniczny współzałożyciel produktu AI dla podróżujących po Japonii. Odpowiadam za architekturę, dostarczanie i infrastrukturę, podczas gdy firma równolegle rozwija ścieżki consumer, white-label i DMO.
+  positions:
+  - designation: CTO
+    start: 2025
+    responsibilities:
+    - Zbudowałem produkt od zera do MVP - architektura, backend i infrastruktura.
+    - Aplikacja mobilna - React Native (Expo), jeden kod na iOS, Androida i web.
+    - Backend - TypeScript na Azure Functions, CI/CD w Azure DevOps na agentach w chmurze.
+    - AI - własna predykcja tłumów oparta na modelach ruchu pieszych, sygnałach o przemieszczaniu się naszych użytkowników i zewnętrznych źródłach danych.
+
+- company:
+    name: SparkTech Wiktor Mendalka
     url: https://www.softwarecity.pl/
     location: Zdalnie
-    overview: Własna działalność łącząca software house, agencję rekrutacyjną i indywidualny program mentoringowy dla specjalistów IT.
+    overview: Jednoosobowa działalność gospodarcza prowadząca trzy marki; software house, program mentoringowy 1:1 dla developerów i usługę rekrutacji IT.
   positions:
   - designation: Założyciel
     start: 2023
     responsibilities:
-    - Zbudowałem i prowadzę indywidualny program mentoringowy (Coursify) dla mid+ developerów, skupiający się na kompetencjach miękkich, doradztwie kariery i narzędziach AI. Przeskalowany do 100+ klientów; cotygodniowe sesje 1:1 z asynchronicznym wsparciem między nimi.
-    - Realizacja usług software house'owych, w tym budżetowy rozwój MVP — np. WeGuide AI od zera do pierwszego klienta B2B.
-    - Projekty obejmują m.in. minigry kasynowe, platformy grywalizacyjne i moduły aplikacji AI coach.
-    - Usługi rekrutacyjne dla specjalistów IT.
+    - softwarecity.pl - zrealizowałem projekty dla 10+ klientów B2B, m.in. minigry kasynowe, platformy grywalizacyjne i moduły aplikacji AI coach.
+    - coursify.pl - rozwinąłem program mentoringowy 1:1 do 100+ płacących klientów (mid+ developerzy), obejmujący strategię kariery, kompetencje miękkie i praktyczne narzędzia AI.
+    - hireify.pl - usługi rekrutacyjne dla specjalistów IT.
 
 - company:
     name: Uniwersytet Warszawski

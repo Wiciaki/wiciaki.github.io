@@ -8,18 +8,18 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Product Engineer
+designation: CTO i współzałożyciel
 # your company information
 company:
-  name: SoftwareCity
-  url: "https://softwarecity.pl/"
+  name: WeGuide
+  url: "https://www.weguide.ai/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Od 2014 roku buduję oprogramowanie obejmując pełen zakres inżynierii produktowej - systemy backendowe, projekty dla klientów i własne przedsięwzięcia.<br>Poza programowaniem mentoringuję mid+ developerów i aktywnie działam w warszawskiej społeczności AI.'
+summary: 'Od 2014 roku buduję oprogramowanie: systemy backendowe dla branży iGaming, własny software house z 10+ klientami B2B, a obecnie WeGuide, opartego na AI towarzysza podróży po Japonii, którego doprowadziłem od zera do MVP.<br>Poza kodem prowadzę program mentoringowy, przez który przeszło już 100+ developerów, i robię doktorat z uczenia maszynowego.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

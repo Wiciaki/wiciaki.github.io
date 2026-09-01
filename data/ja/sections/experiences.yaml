@@ -1,0 +1,124 @@
+# section information
+section:
+  name: 職務経歴
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: WeGuide AI
+    url: https://www.weguide.ai/
+    location: リモート
+    overview: 日本向けAI旅行プロダクトの技術共同創業者。アーキテクチャ、デリバリー、インフラを担当。会社はコンシューマー向け、ホワイトレーベル、DMOの3つのトラックを並行して展開しています。
+  positions:
+  - designation: CTO
+    start: 2025
+    responsibilities:
+    - プロダクトをゼロからMVPまで構築(アーキテクチャ、バックエンド、インフラ)。
+    - モバイルアプリ:React Native(Expo)、iOS・Android・Webを単一のコードベースで対応。
+    - バックエンド:Azure Functions上のTypeScript、Azure DevOpsのクラウドホステッドエージェントによるCI/CD。
+    - AI:歩行者流モデル、自社ユーザーの移動シグナル、外部データフィードを組み合わせた独自の混雑予測。
+
+- company:
+    name: SparkTech Wiktor Mendalka
+    url: https://www.softwarecity.pl/
+    location: リモート
+    overview: 3つのブランドを運営する個人事業。ソフトウェアハウス、開発者向け1対1メンタリングプログラム、IT人材紹介サービス。
+  positions:
+  - designation: 創業者
+    start: 2023
+    responsibilities:
+    - softwarecity.pl:カジノミニゲーム、ゲーミフィケーションプラットフォーム、AIコーチングアプリのモジュールなど、10社以上のB2Bクライアント向けにプロジェクトを提供。
+    - coursify.pl:1対1メンタリングプログラムを100人以上の有料クライアント(ミドルクラス以上の開発者)まで成長させ、キャリア戦略、ソフトスキル、実践的なAIツール活用をカバー。
+    - hireify.pl:ITプロフェッショナル向けの人材紹介サービスを提供。
+
+- company:
+    name: ワルシャワ大学
+    url: "https://www.en.uw.edu.pl/"
+    location: ポーランド、ワルシャワ
+    overview: ワルシャワ大学でのパートタイム勤務。
+  positions:
+  - designation: 研究アシスタント
+    start: 2025
+    end: 2025
+    responsibilities:
+    - CNN(畳み込みニューラルネットワーク)に関する研究。
+    - 機械学習コースの実習講師。
+
+- company:
+    name: SavageTech
+    url: "https://savagetech.gg/"
+    location: リモート
+    overview: 主要クライアント:iGaming業界。<br>GeekForceとの契約の継続。
+  positions:
+  - designation: バックエンド開発者
+    start: 2024
+    end: 2025
+    responsibilities:
+      - 技術スタック:TypeScript、Node.js、Mongoose、Azure Functions
+      - テスト:Jest、Vitest
+      - アーキテクチャパターン:CQRS、イベントソーシング、DI
+      - Git運用:トランクベース開発
+      - クライアントと直接やり取りし、定期的にビジネスプレゼンテーションを行いました。
+
+- company:
+    name: GeekForce (ソフトウェアハウス)
+    url: "https://geekforce.io/"
+    location: リモート
+    overview: 主要クライアント:iGaming業界
+  positions:
+  - designation: バックエンド開発者
+    start: 2023
+    end: 2024
+    responsibilities:
+    - 技術スタック:TypeScript、Node.js、Mongoose、Azure Functions
+    - テスト:Jest、Vitest
+    - アーキテクチャパターン:CQRS、イベントソーシング、DI
+    - Git運用:トランクベース開発
+    - クライアントと直接やり取りし、定期的にビジネスプレゼンテーションを行いました。
+
+- company:
+    name: フリーランス
+    location: リモート
+    overview: LeagueSharpの終了後、似たようなプロジェクトへの紹介をいくつか受けました。<br>当時は2つの大学で3つの課程を修了しようと奮闘していた時期で、パートタイムのリモート開発の仕事はとても都合が良かったのです。<br>関わったテックスタートアップは主に中国とロシアを拠点としていました。
+  positions:
+  - designation: 開発者・セキュリティコンサルタント
+    start: 2017
+    end: 2020
+    responsibilities:
+    - .NETによるコンソールアプリ開発。
+    - C#(SharpDX)とネイティブC++の両方によるDirectX UI開発。
+    - Rustによるコンソールアプリ開発。
+    - Gitリポジトリの管理とチームメンバーとのコードレビュー。
+
+- company:
+    name: Coding Giants
+    url: https://www.codinggiants.com/
+    location: ポーランド、クラクフ
+    overview: 多くのことを学べたパートタイムの仕事です :)<br>主に16歳前後の生徒を教えていました。
+  positions:
+  - designation: プログラミング講師
+    start: 2018
+    end: 2021
+    responsibilities:
+    - C#とセキュリティの授業を担当。
+    - ワークショップを準備し、Scratchプログラミングで小さな子どもたちの興味を引き出す工夫をしました。
+    - その後は品質管理と他の講師の指導も担当。
+
+- company:
+    name: LeagueSharp
+    location: リモート
+    overview: ゲームチートのプロジェクトで、私のアドオンやプラグインは世界中の50,000人以上の有料ユーザーに使われていました。<br>一見すると真面目なプロジェクトには見えないかもしれませんが、私にとっては本当に大きな意味がありました。<br>ここでプログラミングを一生の仕事にすると決め、多くの友人にも出会いました :)
+  positions:
+  - designation: コントリビューター
+    start: 2014
+    end: 2017
+    responsibilities:
+    - 各種C#コンソールアプリの開発と保守。
+    - C++/CLIによるネイティブC++ APIとの連携(注:C++とは別の言語です)。
+    - ユーザー対応とフォーラムのモデレーション。

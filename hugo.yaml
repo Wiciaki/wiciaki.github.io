@@ -27,6 +27,9 @@ languages:
   pl:
     label: Polski
     weight: 2
+  ja:
+    label: 日本語
+    weight: 3
 # default language for the content
 #defaultContentLanguage: en
 
