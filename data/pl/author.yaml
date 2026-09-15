@@ -6,7 +6,7 @@ greeting: "Cześć! Jestem"
 image: "images/author/wiktor.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "wiktor.mendalka@coursify.pl"
+  email: "wiktor.mendalka@outlook.com"
   linkedin: wiktor-mendalka
   github: Wiciaki
 
