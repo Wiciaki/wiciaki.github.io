@@ -50,7 +50,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
           fail: false
-          args: "--verbose --exclude 'www.udemy.com' './public/**/*.html'"
+          args: "--verbose --root-dir '${{ github.workspace }}/public' --exclude 'www.udemy.com' './public/**/*.html'"
           output: lychee/out.md
 
       # Dependabot PRs get a read-only token, so this step cannot post.
