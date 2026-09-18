@@ -2,11 +2,19 @@
 
 version: 2
 updates:
-# Update the Github Action  versions
+# Update the Github Action versions
 - package-ecosystem: "github-actions"
   directory: "/"
   schedule:
-    interval: "daily"
+    interval: "weekly"
   labels:
   - "dependencies"
-  - "automerge"
+  # Minor and patch bumps arrive as a single PR that merges itself once the
+  # checks pass. Major bumps stay outside the group, one PR each, for review.
+  groups:
+    actions:
+      patterns:
+      - "*"
+      update-types:
+      - "minor"
+      - "patch"
