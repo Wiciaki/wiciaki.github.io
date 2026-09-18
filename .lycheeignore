@@ -1,0 +1,11 @@
+# Sites that block automated clients. A failure on these is not a broken
+# link, so the link checker skips them. Verify them by hand if in doubt.
+
+# LinkedIn answers every non-browser client with HTTP 999.
+linkedin\.com
+
+# Bot protection returns 403 to GitHub runner IPs, 200 from a normal network.
+savagetech\.gg
+
+# Rejects automated requests.
+www\.udemy\.com
