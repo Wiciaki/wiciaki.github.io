@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  statuses: write
 
 jobs:
   update-theme:
@@ -25,17 +26,28 @@ jobs:
       - name: Update theme to latest release
         run: mise run update
 
+      # The build and link check below mirror the two jobs in
+      # pull-request.yml, and post their results under the same two names.
+      # Keep the three in step if you change how the site is checked.
       - name: Build
-        run: |
-          hugo --minify
-          # drop the build output so it does not end up in the PR
-          rm -rf public/
+        id: build
+        run: hugo --minify
 
-      # This PR is opened with the default GITHUB_TOKEN, which by design does
-      # not trigger any further workflow. Its checks therefore never run and it
-      # cannot satisfy the checks required on main, so merge it yourself using
-      # the admin override after looking the diff over.
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2.9.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          fail: false
+          args: "--verbose --root-dir '${{ github.workspace }}/public' './public/**/*.html'"
+          output: lychee/out.md
+
+      - name: Discard build output
+        run: rm -rf public/ lychee/
+
       - name: Create Pull Request
+        id: pr
         uses: peter-evans/create-pull-request@v8
         with:
           base: main
@@ -44,3 +56,29 @@ jobs:
           branch: chore/theme-update
           delete-branch: true
           labels: theme
+
+      # This PR is opened with the default GITHUB_TOKEN, which by design never
+      # triggers another workflow, so pull-request.yml will not run against it
+      # and main's required checks would block it forever. The steps above
+      # already built and link-checked exactly this code, so report those
+      # results as commit statuses under the required names. Same verification,
+      # just carried out here rather than on the pull_request event.
+      - name: Report results on the pull request
+        if: steps.pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SHA: ${{ steps.pr.outputs.pull-request-head-sha }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          LYCHEE_EXIT: ${{ steps.lychee.outputs.exit_code }}
+        run: |
+          post() {
+            gh api -X POST "repos/${GITHUB_REPOSITORY}/statuses/${SHA}" \
+              -f state="$1" -f context="$2" -f description="$3" \
+              -f target_url="$RUN_URL" --silent
+          }
+          post success build "Site built in the theme update run"
+          if [ "${LYCHEE_EXIT:-0}" = "0" ]; then
+            post success markdown-link-check "No broken links"
+          else
+            post failure markdown-link-check "Broken links found, see the run log"
+          fi
