@@ -25,6 +25,9 @@ jobs:
   # Check for any broken links in the built site
   markdown-link-check:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       # checkout to the commit that has been pushed
       - uses: actions/checkout@v7
@@ -47,11 +50,14 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
           fail: false
-          args: "--verbose --exclude-mail --exclude 'www.udemy.com' './public/**/*.html'"
+          args: "--verbose --exclude 'www.udemy.com' './public/**/*.html'"
           output: lychee/out.md
 
+      # Dependabot PRs get a read-only token, so this step cannot post.
+      # Do not let that sink the job: the report is also in the job summary.
       - name: Comment Broken Links
         if: ${{ steps.lychee.outputs.exit_code != 0 }}
+        continue-on-error: true
         uses: marocchino/sticky-pull-request-comment@v3
         with:
           path: lychee/out.md
