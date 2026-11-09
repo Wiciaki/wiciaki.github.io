@@ -18,7 +18,7 @@ jobs:
         with:
           ref: main
 
-      - uses: jdx/mise-action@v4
+      - uses: jdx/mise-action@v5
 
       - name: Install dependencies
         run: mise run install
