@@ -1,5 +1,11 @@
 [tools]
-hugo-extended = 'latest'
+# Hugo 0.170 dropped the extended edition and its built-in LibSass, so the
+# theme's SCSS is now compiled by Dart Sass, which Hugo looks up on PATH.
+# Installed from the GitHub release with the glibc build pinned: the aqua
+# registry entry always picks the musl build on Linux, and that binary does
+# not start on the Ubuntu runners.
+hugo = 'latest'
+"github:sass/dart-sass" = { version = 'latest', libc = 'glibc' }
 node = 'latest'
 go = 'latest'
 
