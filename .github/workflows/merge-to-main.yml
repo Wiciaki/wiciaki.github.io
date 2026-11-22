@@ -13,24 +13,11 @@ jobs:
     # checkout to the commit that has been pushed
     - uses: actions/checkout@v7
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v3.2.1
-      with:
-        hugo-version: 'latest'
-        extended: true
+    # Same toolchain as the PR checks: Hugo, Dart Sass, Node and Go from mise.toml.
+    - uses: jdx/mise-action@v4
 
-    - name: Update Hugo Modules
-      run: hugo mod tidy
-
-    - name: Setup Node
-      uses: actions/setup-node@v7
-      with:
-        node-version: 18
-
-    - name: Install node modules
-      run: |
-        hugo mod npm pack
-        npm install
+    - name: Install dependencies
+      run: mise run install
 
     - name: Build
       run: hugo --minify

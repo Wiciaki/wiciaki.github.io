@@ -1,5 +1,8 @@
 [tools]
-hugo-extended = 'latest'
+# Hugo 0.170 dropped the extended edition and its built-in LibSass, so the
+# theme's SCSS is now compiled by Dart Sass, which Hugo looks up on PATH.
+hugo = 'latest'
+"aqua:sass/dart-sass" = 'latest'
 node = 'latest'
 go = 'latest'
 
