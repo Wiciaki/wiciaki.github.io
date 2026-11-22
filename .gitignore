@@ -1,5 +1,6 @@
 resources/*
-node_modules/*
+# At any depth: npm also installs into packages/hugoautogen/node_modules.
+node_modules/
 public/*
 .vscode/
 .hugo_build.lock
