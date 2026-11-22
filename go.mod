@@ -6,4 +6,4 @@ go 1.25
 //     github.com/hugo-toha/toha/v4 => ../toha
 // )
 
-require github.com/hugo-toha/toha/v4 v4.16.0 // indirect
+require github.com/hugo-toha/toha/v4 v4.17.0 // indirect
